@@ -1,28 +1,39 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';  // Importera React Router
 import PoliceStations from './components/PoliceStations';
 import Events from './components/Events';
 
 function App() {
   return (
-    <div>
-      <header>
-        <h1>Polisstationer och Aktuella Händelser</h1>
-      </header>
+    <Router>
+      <div>
+        <header>
+          <h1>Polisstationer och Aktuella Händelser</h1>
+        </header>
 
-      <section id="police-stations">
-        <h2>Polisstationer</h2>
-        <PoliceStations />
-      </section>
+        {/* Navigeringsknappar */}
+        <nav>
+          <Link to="/police-stations">
+            <button>Polisstationer</button>
+          </Link>
+          <Link to="/events">
+            <button>Aktuella Händelser</button>
+          </Link>
+        </nav>
 
-      <section id="events">
-        <h2>Aktuella Händelser</h2>
-        <Events />
-      </section>
+        <section id="content">
+          {/* Routing till komponenterna */}
+          <Routes>
+            <Route path="/police-stations" element={<PoliceStations />} />
+            <Route path="/events" element={<Events />} />
+          </Routes>
+        </section>
 
-      <footer>
-        <p>&copy; 2026 Polis API Applikation</p>
-      </footer>
-    </div>
+        <footer>
+          <p>&copy; 2026 Polis API Applikation</p>
+        </footer>
+      </div>
+    </Router>
   );
 }
 

@@ -1,3 +1,4 @@
+/* Global styling */
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,23 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0a1d32;
   color: white;
   text-align: center;
+  line-height: 1.6;
+  padding: 0 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
   background-color: #002f5f;
   padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -24,28 +33,122 @@ h1 {
 h2 {
   color: #ffd700;
   margin-top: 20px;
-}
-
-section {
-  padding: 20px;
-}
-
-#police-stations, #events {
-  margin: 20px 0;
-  background-color: #1e2d47;
-  border-radius: 8px;
-  padding: 10px;
-}
-
-#stations-list, #events-list {
-  margin-top: 20px;
-  list-style: none;
+  font-size: 1.75rem;
 }
 
 footer {
   background-color: #002f5f;
   padding: 10px;
-  position: absolute;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  position: relative;
   bottom: 0;
-  width: 100%;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #002f5f;
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #ffd700;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #1e2d47;
+  border-radius: 8px;
+}
+
+#police-stations, #events {
+  margin-bottom: 30px;
+}
+
+/* Police Stations and Events Lists */
+#stations-list, #events-list {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.station, .event {
+  background-color: #2d3d61;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.station h3, .event h4 {
+  color: #ffd700;
+}
+
+.station p, .event p {
+  margin-bottom: 10px;
+}
+
+.station a, .event a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.station a:hover, .event a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  #stations-list, #events-list {
+    padding-left: 20px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
 }
