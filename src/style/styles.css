@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a1d32;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: #002f5f;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffd700;
+}
+
+h2 {
+  color: #ffd700;
+  margin-top: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+#police-stations, #events {
+  margin: 20px 0;
+  background-color: #1e2d47;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#stations-list, #events-list {
+  margin-top: 20px;
+  list-style: none;
+}
+
+footer {
+  background-color: #002f5f;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
