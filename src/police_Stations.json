@@ -1,0 +1,5853 @@
+[
+  {
+    "id": 1233,
+    "name": "Alingsås",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/alingsas/",
+    "location": {
+      "name": "N Strömgatan 8, Alingsås",
+      "gps": "57.930105,12.529608"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 811,
+    "name": "Alvesta",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/alvesta/",
+    "location": {
+      "name": "Värendsgatan 14, Alvesta",
+      "gps": "56.900514,14.555233"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 7519,
+    "name": "Aneby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/aneby/",
+    "location": {
+      "name": "Stigbergsvägen 11, Aneby",
+      "gps": "57.836076,14.807909"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 832,
+    "name": "Arjeplog",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/arjeplog/",
+    "location": {
+      "name": "Tingsbacka, Storgatan 20, Arjeplog",
+      "gps": "66.052216,17.893128"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 834,
+    "name": "Arvidsjaur",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/arvidsjaur/",
+    "location": {
+      "name": "Östra Kyrkogatan 1, Arvidsjaur",
+      "gps": "65.593781,19.160384"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1128,
+    "name": "Arvika",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/arvika/",
+    "location": {
+      "name": "Styckåsgatan 10-12, Arvika",
+      "gps": "59.653932,12.602657"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 674,
+    "name": "Avesta",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/avesta/",
+    "location": {
+      "name": "Kungsgatan 42, Avesta",
+      "gps": "60.146648,16.163744"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1235,
+    "name": "Bengtsfors",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/bengtsfors/",
+    "location": {
+      "name": "Storgatan 42, Bengtsfors",
+      "gps": "59.031614,12.219173"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1163,
+    "name": "Bjurholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/bjurholm/",
+    "location": {
+      "name": "Storgatan 9, Bjurholm",
+      "gps": "63.929735,19.2119135"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 879,
+    "name": "Bjuv",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/bjuv/",
+    "location": {
+      "name": "Bangatan 1, Bjuv",
+      "gps": "56.08384,12.911404"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 836,
+    "name": "Boden",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/boden/",
+    "location": {
+      "name": "Garnisonsgatan 6 A, Boden",
+      "gps": "65.824986,21.698839"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1237,
+    "name": "Bollebygd",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/bollebygd/",
+    "location": {
+      "name": ", Bollebygd",
+      "gps": "57.669572,12.57078"
+    },
+    "services": []
+  },
+  {
+    "id": 714,
+    "name": "Bollnäs",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gavleborg/bollnas/",
+    "location": {
+      "name": "Långgatan 32, Bollnäs",
+      "gps": "61.349777,16.397383"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 788,
+    "name": "Borgholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/borgholm/",
+    "location": {
+      "name": "Tullgatan 38 D, Borgholm",
+      "gps": "56.877094,16.66179"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 676,
+    "name": "Borlänge",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/borlange/",
+    "location": {
+      "name": "Wallintorget 9, Borlänge",
+      "gps": "60.485958,15.435876"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1239,
+    "name": "Borås",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/boras/",
+    "location": {
+      "name": "Sandgärdsgatan 15, Borås",
+      "gps": "57.72363,12.941762"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1346,
+    "name": "Boxholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/boxholm/",
+    "location": {
+      "name": "Storgatan 20, Boxholm",
+      "gps": "58.19697,15.0524"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 881,
+    "name": "Broby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/broby/",
+    "location": {
+      "name": "Köpmannagatan 7, Broby",
+      "gps": "56.252607,14.078057"
+    },
+    "services": []
+  },
+  {
+    "id": 883,
+    "name": "Bromölla",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/bromolla/",
+    "location": {
+      "name": "Fågel Fenix väg 3, Bromölla",
+      "gps": "56.072579,14.465935"
+    },
+    "services": []
+  },
+  {
+    "id": 887,
+    "name": "Båstad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/bastad/",
+    "location": {
+      "name": "Vångavägen 2, Båstad",
+      "gps": "56.426418,12.846166"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 297809,
+    "name": "Delgivningssektionen Region Stockholm och Gotland",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/delgivningssektionen-region-stockholm-och-gotland/",
+    "location": {
+      "name": ", ",
+      "gps": "59.330489,18.039916"
+    },
+    "services": []
+  },
+  {
+    "id": 1165,
+    "name": "Dorotea",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/dorotea/",
+    "location": {
+      "name": "Storgatan 33, Dorotea",
+      "gps": "64.261558,16.410731"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 771,
+    "name": "Eksjö",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/eksjo/",
+    "location": {
+      "name": "Mosstegsgatan 2, Eksjö",
+      "gps": "57.659283,14.960808"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 790,
+    "name": "Emmaboda",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/emmaboda/",
+    "location": {
+      "name": "Järnvägsgatan 41, Emmaboda",
+      "gps": "56.630452,15.53336"
+    },
+    "services": []
+  },
+  {
+    "id": 1104,
+    "name": "Enköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/uppsala-lan/enkoping/",
+    "location": {
+      "name": "Korsängsgatan 42, Enköping",
+      "gps": "59.636833,17.083393"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1080,
+    "name": "Eskilstuna",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/eskilstuna/",
+    "location": {
+      "name": "Nygatan 4, Eskilstuna",
+      "gps": "59.368893,16.515372"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 891,
+    "name": "Eslöv",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/eslov/",
+    "location": {
+      "name": "Ellingevägen 14, Eslöv",
+      "gps": "55.830099,13.309147"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1218,
+    "name": "Fagersta",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastmanland/fagersta/",
+    "location": {
+      "name": "Daliavägen 5, Fagersta",
+      "gps": "60.003667,15.799268"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 735,
+    "name": "Falkenberg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/falkenberg/",
+    "location": {
+      "name": "Arvidstorpsv 14-16, Falkenberg",
+      "gps": "56.90625,12.488467"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1241,
+    "name": "Falköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/falkoping/",
+    "location": {
+      "name": "Trädgårdsgatan 41, Falköping",
+      "gps": "58.161282,13.558324"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 678,
+    "name": "Falun",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/falun/",
+    "location": {
+      "name": "Kristinegatan 26, Falun",
+      "gps": "60.606778,15.625906"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "name": "Farsta",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/farsta/",
+    "location": {
+      "name": "Mårbackagatan 3F, Farsta, ",
+      "gps": "59.2416521,18.105058"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1132,
+    "name": "Filipstad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/filipstad/",
+    "location": {
+      "name": "Viktoriagatan 6, Filipstad",
+      "gps": "59.712668,14.170511"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1348,
+    "name": "Finspång",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/finspang/",
+    "location": {
+      "name": "Stationsvägen 3, Finspång",
+      "gps": "58.707826,15.776457"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1050,
+    "name": "Flemingsberg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/flemingsberg/",
+    "location": {
+      "name": "Björnkullavägen 9, Flemingsberg",
+      "gps": "59.217061,17.94709"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1083,
+    "name": "Flen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/flen/",
+    "location": {
+      "name": "Södra Järnvägsgatan 4, Flen ",
+      "gps": "59.05732,16.58828"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 752,
+    "name": "Funäsdalen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/funasdalen/",
+    "location": {
+      "name": "Rörosvägen 12, Funäsdalen",
+      "gps": "62.544768,12.546411"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "name": "Gislaved",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/gislaved/",
+    "location": {
+      "name": "Weland Industricentrum, Anderstorpsvägen 24, Gislaved",
+      "gps": "57.295225,13.565552"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1053,
+    "name": "Globen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/globen/",
+    "location": {
+      "name": "Arenavägen 63, Johanneshov",
+      "gps": "59.2921974,18.0817704"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1085,
+    "name": "Gnesta",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/gnesta/",
+    "location": {
+      "name": "Medborgarkontoret, Marieströmsgatan 3, Gnesta",
+      "gps": "59.04793,17.310531"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 838,
+    "name": "Gällivare",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/gallivare/",
+    "location": {
+      "name": "Lasarettsgatan 20, Gällivare",
+      "gps": "67.132138,20.663296"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 716,
+    "name": "Gävle",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gavleborg/gavle/",
+    "location": {
+      "name": "Södra Centralgatan 1, Gävle",
+      "gps": "60.674199,17.150824"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1243,
+    "name": "Göteborg City",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/goteborg-city/",
+    "location": {
+      "name": "Stampgatan 28, Göteborg",
+      "gps": "57.707694,11.983464"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1247,
+    "name": "Göteborg Hisingen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/goteborg-hisingen/",
+    "location": {
+      "name": "Vågmästaregatan 5, Göteborg",
+      "gps": "57.719859,11.945917"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1249,
+    "name": "Göteborg Hittegodscentralen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/goteborg-hittegodscentralen/",
+    "location": {
+      "name": "Odinsgatan 28 B, Göteborg",
+      "gps": "57.70959,11.983729"
+    },
+    "services": [
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1253,
+    "name": "Göteborg Nordost Hjällbo",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/goteborg-nordost/",
+    "location": {
+      "name": "Hjällbo Lillgata 1, Göteborg",
+      "gps": "57.772206,12.028801"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1255,
+    "name": "Göteborg Passcentralen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/goteborg-passcentralen/",
+    "location": {
+      "name": "Stampgatan 34, Göteborg",
+      "gps": "57.707694,11.983845"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1138,
+    "name": "Hagfors",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/hagfors/",
+    "location": {
+      "name": "Dalavägen 6-8, Hagfors",
+      "gps": "60.030174,13.701198"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1325,
+    "name": "Hallsberg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/orebro-lan/hallsberg/",
+    "location": {
+      "name": "Västra Storgatan 6-8, Hallsberg",
+      "gps": "59.065917,15.107341"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 737,
+    "name": "Halmstad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/halmstad/",
+    "location": {
+      "name": "Norra Källegatan 3, Halmstad",
+      "gps": "56.678382,12.855126"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1059,
+    "name": "Haninge",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/haninge/",
+    "location": {
+      "name": "Runstensvägen 3, Handen",
+      "gps": "59.169713,18.140736"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 840,
+    "name": "Haparanda",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/haparanda/",
+    "location": {
+      "name": "Strandgatan 10, Haparanda",
+      "gps": "65.837982,24.140597"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 893,
+    "name": "Helsingborg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/helsingborg/",
+    "location": {
+      "name": "Berga allé 25, Helsingborg",
+      "gps": "56.063879,12.712355"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 561150,
+    "name": "Huddinge",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/huddinge/",
+    "location": {
+      "name": "Novavägen 1-3, Huddinge",
+      "gps": "59.2310274,17.9508897"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 720,
+    "name": "Hudiksvall",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gavleborg/hudiksvall/",
+    "location": {
+      "name": "N Kyrkogatan 17, Hudiksvall",
+      "gps": "61.729248,17.102241"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 792,
+    "name": "Hultsfred",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/hultsfred/",
+    "location": {
+      "name": "Västra Långgatan 36, Hultsfred",
+      "gps": "57.485776,15.841557"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 739,
+    "name": "Hylte",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/hylte/",
+    "location": {
+      "name": "Storgatan 3, Hyltebruk",
+      "gps": "57.000881,13.241829"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1201,
+    "name": "Härnösand",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/harnosand/",
+    "location": {
+      "name": "Storgatan 2, Härnösand ",
+      "gps": "62.629215,17.933054"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 895,
+    "name": "Hässleholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/hassleholm/",
+    "location": {
+      "name": "Östergatan 19, Hässleholm",
+      "gps": "56.15628,13.766756"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 897,
+    "name": "Höganäs",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/hoganas/",
+    "location": {
+      "name": "Torggatan 2, Höganäs",
+      "gps": "56.200564,12.557187"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 899,
+    "name": "Hörby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/horby/",
+    "location": {
+      "name": "Ringsjövägen 4, Hörby",
+      "gps": "55.851322,13.658556"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 901,
+    "name": "Höör",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/hoor/",
+    "location": {
+      "name": "Ringvägen 1, Höör",
+      "gps": "55.926089,13.543933"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 684,
+    "name": "Idre",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/idre/",
+    "location": {
+      "name": "Byvägen 34, Idre",
+      "gps": "61.858005,12.712541"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 847,
+    "name": "Jokkmokk",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/jokkmokk/",
+    "location": {
+      "name": "Klockarvägen 21, Jokkmokk",
+      "gps": "66.607503,19.82275"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 221767,
+    "name": "Järva (Rinkeby)",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-nord/rinkeby/",
+    "location": {
+      "name": "Rinkebyplan 2a, Spånga, ",
+      "gps": "59.38752,17.932211"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 775,
+    "name": "Jönköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/jonkoping/",
+    "location": {
+      "name": "Vallgatan 3-5, Jönköping",
+      "gps": "57.77981,14.166756"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 849,
+    "name": "Kalix",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/kalix/",
+    "location": {
+      "name": "Köpmannagatan 1, Kalix",
+      "gps": "65.855126,23.131884"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 794,
+    "name": "Kalmar",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/kalmar/",
+    "location": {
+      "name": "Galggatan 4, Kalmar",
+      "gps": "56.672139,16.340322"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 663,
+    "name": "Karlshamn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/blekinge/karlshamn/",
+    "location": {
+      "name": "Erik Dahlbergsvägen 30 B, Karlshamn",
+      "gps": "56.171176,14.869001"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1329,
+    "name": "Karlskoga",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/orebro-lan/karlskoga/",
+    "location": {
+      "name": " , Karlskoga",
+      "gps": "59.327415,14.509668"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 665,
+    "name": "Karlskrona",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/blekinge/karlskrona/",
+    "location": {
+      "name": "Järnvägstorget 5, Karlskrona",
+      "gps": "56.165085,15.5838"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1142,
+    "name": "Karlstad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/karlstad/",
+    "location": {
+      "name": "Drottninggatan 10, Karlstad",
+      "gps": "59.37952,13.50326"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1087,
+    "name": "Katrineholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/katrineholm/",
+    "location": {
+      "name": "Djulögatan 26, Katrineholm ",
+      "gps": "58.993271,16.202029"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1350,
+    "name": "Kinda/Ydre",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/kindaydre/",
+    "location": {
+      "name": "Stora Torget 5A, Kisa",
+      "gps": "57.987378,15.632099"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1277,
+    "name": "Kinna",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/mark/",
+    "location": {
+      "name": "Boråsvägen 50, Kinna",
+      "gps": "57.50999,12.698547"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 851,
+    "name": "Kiruna",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/kiruna/",
+    "location": {
+      "name": "Midnattssolsvägen 12, Kiruna",
+      "gps": "67.8509722,20.307568"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 903,
+    "name": "Klippan",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/klippan/",
+    "location": {
+      "name": "Storgatan 60, Klippan",
+      "gps": "56.137565,13.125752"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1205,
+    "name": "Kramfors",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/kramfors/",
+    "location": {
+      "name": "Viktoriagatan 2, Kramfors",
+      "gps": "62.930104,17.775498"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 905,
+    "name": "Kristianstad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/kristianstad/",
+    "location": {
+      "name": "Vattentornsvägen 5C, Kristianstad",
+      "gps": "56.0372,14.15105"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1146,
+    "name": "Kristinehamn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/kristinehamn/",
+    "location": {
+      "name": "Kungsgatan 30, Kristinehamn",
+      "gps": "59.312646,14.106952"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 760,
+    "name": "Krokom",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/krokom/",
+    "location": {
+      "name": "Offerdalsvägen 3 , Krokom",
+      "gps": "63.326822,14.447556"
+    },
+    "services": []
+  },
+  {
+    "id": 741,
+    "name": "Kungsbacka",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/kungsbacka/",
+    "location": {
+      "name": "Lantmannagatan 5, Kungsbacka",
+      "gps": "57.485555,12.080835"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1267,
+    "name": "Kungälv",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/kungalv/",
+    "location": {
+      "name": "Ytterbyvägen 25, Kungälv",
+      "gps": "57.870578,11.972248"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 907,
+    "name": "Kävlinge",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/kavlinge/",
+    "location": {
+      "name": "Karl Johans väg 102, Kävlinge",
+      "gps": "55.796782,13.115392"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1224,
+    "name": "Köping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastmanland/koping2/",
+    "location": {
+      "name": "Ringvägen 88, Köping",
+      "gps": "59.517207,15.966556"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 743,
+    "name": "Laholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/laholm/",
+    "location": {
+      "name": "Lantmannagatan 3, Laholm",
+      "gps": "56.513205,13.050235"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 909,
+    "name": "Landskrona",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/landskrona/",
+    "location": {
+      "name": "Rådhusgatan 1, Landskrona",
+      "gps": "55.869568,12.83006"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1269,
+    "name": "Lerum",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/lerum/",
+    "location": {
+      "name": "Göteborgsvägen 16, Lerum",
+      "gps": "57.768456,12.265073"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 813,
+    "name": "Lessebo",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/lessebo/",
+    "location": {
+      "name": "Storgatan 78, Lessebo",
+      "gps": "56.751387,15.269421"
+    },
+    "services": []
+  },
+  {
+    "id": 1271,
+    "name": "Lidköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/lidkoping/",
+    "location": {
+      "name": "Mellbygatan 5, Lidköping",
+      "gps": "58.50214,13.155002"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1337,
+    "name": "Lindesberg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/orebro-lan/lindesberg/",
+    "location": {
+      "name": "Prästgatan 6, Lindesberg",
+      "gps": "59.592221,15.227791"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1352,
+    "name": "Linköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/linkoping/",
+    "location": {
+      "name": "Brigadgatan 13, Linköping",
+      "gps": "58.396756,15.618866"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 815,
+    "name": "Ljungby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/ljungby/",
+    "location": {
+      "name": "Södra Torggatan 1, Ljungby",
+      "gps": "56.834814,13.937252"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 722,
+    "name": "Ljusdal",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gavleborg/ljusdal/",
+    "location": {
+      "name": "Hotellgatan 35, Ljusdal",
+      "gps": "61.8276658,16.101895"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 911,
+    "name": "Lomma",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/lomma/",
+    "location": {
+      "name": "Hamngatan 3, Lomma",
+      "gps": "55.674818,13.072137"
+    },
+    "services": []
+  },
+  {
+    "id": 688,
+    "name": "Ludvika ",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/ludvika-/",
+    "location": {
+      "name": "Engelbrektsgatan 18, Ludvika",
+      "gps": "60.1483,15.187602"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 854,
+    "name": "Luleå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/lulea/",
+    "location": {
+      "name": "Skeppsbrogatan 37, Luleå",
+      "gps": "65.5861,22.160199"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 913,
+    "name": "Lund",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/lund/",
+    "location": {
+      "name": "Byggmästaregatan 1, Lund",
+      "gps": "55.704204,13.18353"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1170,
+    "name": "Lycksele",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/lycksele/",
+    "location": {
+      "name": "Borgaregatan 4, Lycksele",
+      "gps": "64.594354,18.679252"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 918,
+    "name": "Malmö Drottninggatan",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/malmo-drottninggatan/",
+    "location": {
+      "name": "Drottninggatan 18, Malmö",
+      "gps": "55.602845,13.011065"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 922,
+    "name": "Malmö Porslinsgatan",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/malmo-porslinsgatan/",
+    "location": {
+      "name": "Porslinsgatan 4B, Malmö",
+      "gps": "55.60639,13.01598"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 920,
+    "name": "Malmö Sturkögatan",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/malmo-sturkogatan/",
+    "location": {
+      "name": "Sturkögatan 10, Malmö (Upphittade nycklar finns på stationen på Porslinsgatan 4B)",
+      "gps": "55.622716,13.041993"
+    },
+    "services": [
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 924,
+    "name": "Malmö Von Lingens väg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/malmo-von-lingens-vag/",
+    "location": {
+      "name": "Von Lingens väg 130 b, Malmö",
+      "gps": "55.587067,13.050536"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 690,
+    "name": "Malung",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/malung/",
+    "location": {
+      "name": "Lisagatan 53, Malung",
+      "gps": "60.683521,13.717502"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1172,
+    "name": "Malå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/mala/",
+    "location": {
+      "name": "Storgatan 46, Malå",
+      "gps": "65.182865,18.742222"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1275,
+    "name": "Mariestad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/mariestad/",
+    "location": {
+      "name": "Oxvägen 1, Mariestad",
+      "gps": "58.708971,13.812818"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 280121,
+    "name": "Markaryd",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/markaryd/",
+    "location": {
+      "name": "Kommunhuset, Drottninggatan 11, Markaryd",
+      "gps": "56.4629715,13.5962415"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1279,
+    "name": "Mellerud",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/mellerud/",
+    "location": {
+      "name": "Storgatan 40, Mellerud",
+      "gps": "58.698524,12.459995"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1354,
+    "name": "Mjölby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/mjolby/",
+    "location": {
+      "name": "Kungsvägen 69, Mjölby",
+      "gps": "58.327416,15.125935"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 6706,
+    "name": "Mobila kontoret Älvsborg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/mobila-kontoret-alvsborg/",
+    "location": {
+      "name": ", ",
+      "gps": "58.121111,12.530556"
+    },
+    "services": []
+  },
+  {
+    "id": 31164,
+    "name": "Mobila poliskontoret i polisområde Blekinge nordöstra Skåne",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/mobila-poliskontoret-i-blekinge-nordostra-skane/",
+    "location": {
+      "name": "Osby: torget, Broby: torget och Åhus: Kvantums parkering, ",
+      "gps": "0,0"
+    },
+    "services": []
+  },
+  {
+    "id": 87257,
+    "name": "Mobila poliskontoret i polisområde Blekinge nordöstra Skåne",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/blekinge/mobila-poliskontoret-i-blekinge-nordostra-skane/",
+    "location": {
+      "name": "Olofström: Ica Maxi, Ronneby: torget, ",
+      "gps": "56.210434,15.276022900000044"
+    },
+    "services": []
+  },
+  {
+    "id": 692,
+    "name": "Mora",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/mora/",
+    "location": {
+      "name": "Millåkersgatan 6-8, Mora",
+      "gps": "61.005612,14.536855"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1356,
+    "name": "Motala",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/motala/",
+    "location": {
+      "name": "Järnvägsparken 1, Motala",
+      "gps": "58.537724,15.046239"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1148,
+    "name": "Munkfors",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/munkfors/",
+    "location": {
+      "name": "Tallbacksvägen 21A, Munkfors",
+      "gps": "59.835599,13.545839"
+    },
+    "services": []
+  },
+  {
+    "id": 1286,
+    "name": "Mölndal",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/molndal/",
+    "location": {
+      "name": "Torggatan 3, Mölndal",
+      "gps": "57.659398,12.019758"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1288,
+    "name": "Mölnlycke",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/molnlycke/",
+    "location": {
+      "name": "Råda torg 1, Mölnlycke",
+      "gps": "57.6590691,12.1146302"
+    },
+    "services": []
+  },
+  {
+    "id": 798,
+    "name": "Mönsterås",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/monsteras/",
+    "location": {
+      "name": "Storgatan 13, Mönsterås",
+      "gps": "57.041343,16.445039"
+    },
+    "services": []
+  },
+  {
+    "id": 1035,
+    "name": "Nacka",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/nacka/",
+    "location": {
+      "name": "Jakobsdalsvägen 1, Nacka Strand",
+      "gps": "59.314907,18.164518"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1174,
+    "name": "Nordmaling",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/nordmaling/",
+    "location": {
+      "name": "Storgatan 11, Nordmaling",
+      "gps": "63.567966,19.5"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1358,
+    "name": "Norrköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/norrkoping/",
+    "location": {
+      "name": "Luntgatan 32, Norrköping",
+      "gps": "58.59434,16.17512"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "Norrtälje",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-nord/norrtalje/",
+    "location": {
+      "name": "Esplanaden 1, Norrtälje",
+      "gps": "59.756701,18.697308"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1176,
+    "name": "Norsjö",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/norsjo/",
+    "location": {
+      "name": "Åkargatan 7, Norsjö",
+      "gps": "64.913451,19.484497"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 800,
+    "name": "Nybro",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/nybro/",
+    "location": {
+      "name": "Långgatan 9, Nybro",
+      "gps": "56.745436,15.910707"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1089,
+    "name": "Nyköping",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/nykoping/",
+    "location": {
+      "name": "Folkungavägen 2, Nyköping",
+      "gps": "58.749382,17.015824"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 779,
+    "name": "Nässjö",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/nassjo/",
+    "location": {
+      "name": "Storgatan 49 , Nässjö",
+      "gps": "57.655423094836145,14.69328478455577"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 667,
+    "name": "Olofström",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/blekinge/olofstrom/",
+    "location": {
+      "name": "Ådalsvägen 4, Olofström",
+      "gps": "56.277212,14.531156"
+    },
+    "services": []
+  },
+  {
+    "id": 926,
+    "name": "Osby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/osby/",
+    "location": {
+      "name": "Kälsvedsvägen 4B, Osby",
+      "gps": "56.38531,14.01481"
+    },
+    "services": []
+  },
+  {
+    "id": 802,
+    "name": "Oskarshamn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/oskarshamn/",
+    "location": {
+      "name": "Slottsgatan 5, Oskarshamn",
+      "gps": "57.264954,16.45004"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1093,
+    "name": "Oxelösund",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/oxelosund/",
+    "location": {
+      "name": "Höjdgatan 26, Oxelösund",
+      "gps": "58.671354,17.106963"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 858,
+    "name": "Pajala",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/pajala/",
+    "location": {
+      "name": "Tingsgatan 1, Pajala",
+      "gps": "67.21346,23.365942"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 928,
+    "name": "Perstorp",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/perstorp/",
+    "location": {
+      "name": "Hantverkaregatan 9 B, Perstorp",
+      "gps": "56.137991,13.396545"
+    },
+    "services": []
+  },
+  {
+    "id": 865,
+    "name": "Piteå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/pitea/",
+    "location": {
+      "name": "Kolugnsvägen 1, Piteå",
+      "gps": "65.31648,21.465651"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1178,
+    "name": "Robertsfors",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/robertsfors/",
+    "location": {
+      "name": "Storgatan 28, Robertsfors",
+      "gps": "64.193529,20.847385"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 669,
+    "name": "Ronneby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/blekinge/ronneby/",
+    "location": {
+      "name": "Gamla Karlshamnsvägen 2, Ronneby",
+      "gps": "56.213557,15.2738"
+    },
+    "services": []
+  },
+  {
+    "id": 1228,
+    "name": "Sala",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastmanland/sala/",
+    "location": {
+      "name": "Gillegatan 5C, Sala",
+      "gps": "59.91911,16.606581"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 730,
+    "name": "Sandviken",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gavleborg/sandviken/",
+    "location": {
+      "name": "Bryggargatan 6, Sandviken",
+      "gps": "60.621891,16.779447"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 930,
+    "name": "Simrishamn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/simrishamn/",
+    "location": {
+      "name": "Stenbocksgatan 24, Simrishamn",
+      "gps": "55.554463,14.351678"
+    },
+    "services": []
+  },
+  {
+    "id": 932,
+    "name": "Sjöbo",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/sjobo/",
+    "location": {
+      "name": "Trädgårdsgatan 5, Sjöbo",
+      "gps": "55.632385,13.709213"
+    },
+    "services": []
+  },
+  {
+    "id": 1292,
+    "name": "Skara",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/skara/",
+    "location": {
+      "name": "Östra Kungshusgatan 11, Skara",
+      "gps": "58.384982,13.440924"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1091,
+    "name": "Skavsta",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/nykoping-skavsta/",
+    "location": {
+      "name": "General Schybergs väg 27, Stockholm-Skavsta flygplats",
+      "gps": "58.78341,16.923055"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1182,
+    "name": "Skellefteå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/skelleftea/",
+    "location": {
+      "name": "Strandgatan 47, Skellefteå",
+      "gps": "64.74848,20.95886"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 934,
+    "name": "Skurup",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/skurup/",
+    "location": {
+      "name": "Kyrkogatan 31, Skurup ",
+      "gps": "55.47911,13.503588"
+    },
+    "services": []
+  },
+  {
+    "id": 1056,
+    "name": "Skärholmen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/skarholmen/",
+    "location": {
+      "name": "Bodholmsplan 4, Skärholmen",
+      "gps": "59.2765703,17.9049766"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1294,
+    "name": "Skövde",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/skovde/",
+    "location": {
+      "name": "Prinsgatan 7-9, Skövde",
+      "gps": "58.386664,13.847876"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1207,
+    "name": "Sollefteå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/solleftea/",
+    "location": {
+      "name": "Hågestavägen 2, Sollefteå",
+      "gps": "63.169085,17.28717"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "name": "Sollentuna ",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-nord/sollentuna-/",
+    "location": {
+      "name": "Tingsvägen 7, Sollentuna",
+      "gps": "59.426257,17.949564"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 986,
+    "name": "Solna",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-nord/solna/",
+    "location": {
+      "name": "Sundbybergsvägen 15, Solna",
+      "gps": "59.355097,18.001389"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 561332,
+    "name": "Solna passexpedition",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-nord/solna-passexpedition/",
+    "location": {
+      "name": "Sundbybergsvägen 17, Solna",
+      "gps": "59.3551321,17.9984828"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1184,
+    "name": "Sorsele",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/sorsele/",
+    "location": {
+      "name": "Norra Esplanaden 5, Sorsele",
+      "gps": "65.53494,17.539965"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 936,
+    "name": "Staffanstorp",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/staffanstorp/",
+    "location": {
+      "name": "Torget 6, Staffanstorp",
+      "gps": "55.644006,13.207598"
+    },
+    "services": []
+  },
+  {
+    "id": 1296,
+    "name": "Stenungsund",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/stenungsund/",
+    "location": {
+      "name": "Västanvindsgatan 4, Stenungsund",
+      "gps": "58.06738,11.816805"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 962,
+    "name": "Stockholm centralstation",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-city/klara/",
+    "location": {
+      "name": "Klarabergsviadukten 49, Stockholm",
+      "gps": "59.330517,18.05709"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 976,
+    "name": "Stockholm Kungsholmen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-city/stockholms-city-norrmalm/",
+    "location": {
+      "name": "Kungsholmsgatan 43, Stockholm. För ärenden om beslag är adressen Bergsgatan 54",
+      "gps": "59.332051,18.038768"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 979,
+    "name": "Stockholm Kungsholmens passexpedition",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-city/stockholms-city-passexpedition/",
+    "location": {
+      "name": "Bergsgatan 48, Stockholm",
+      "gps": "59.330489,18.039916"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 982,
+    "name": "Stockholm Södermalm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-city/stockholms-city-sodermalm/",
+    "location": {
+      "name": "Torkel Knutssonsgatan 20, Stockholm",
+      "gps": "59.316928,18.057505"
+    },
+    "services": [
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 1186,
+    "name": "Storuman",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/storuman/",
+    "location": {
+      "name": "Skolgatan 19, Storuman",
+      "gps": "65.09563,17.11404"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1095,
+    "name": "Strängnäs",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/strangnas/",
+    "location": {
+      "name": "Finningevägen 54 A, Strängnäs  ",
+      "gps": "59.367805,17.024608"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1298,
+    "name": "Strömstad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/stromstad/",
+    "location": {
+      "name": "Södra Hamngatan 8 - 10, Strömstad",
+      "gps": "58.939241,11.171202"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 762,
+    "name": "Strömsund",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/stromsund/",
+    "location": {
+      "name": "Lagmansgatan 25, Strömsund",
+      "gps": "63.853852,15.551905"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1209,
+    "name": "Sundsvall",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/sundsvall/",
+    "location": {
+      "name": "Storgatan 37, Sundsvall ",
+      "gps": "62.392034,17.295554"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      }
+    ]
+  },
+  {
+    "id": 514940,
+    "name": "Sundsvall - hittegods/beslag",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/sundsvall---hittegodsbeslag/",
+    "location": {
+      "name": "Storgatan 39 (upphittade nycklar finns vid  receptionen på Storgatan 37), ",
+      "gps": "62.39232,17.29431"
+    },
+    "services": [
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1152,
+    "name": "Sunne",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/sunne/",
+    "location": {
+      "name": "Storgatan 45, Sunne",
+      "gps": "59.837147,13.141644"
+    },
+    "services": []
+  },
+  {
+    "id": 940,
+    "name": "Svalöv",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/svalov/",
+    "location": {
+      "name": "Herrevadsgatan 11 F, Svalöv",
+      "gps": "55.913864,13.107231"
+    },
+    "services": []
+  },
+  {
+    "id": 764,
+    "name": "Sveg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/sveg/",
+    "location": {
+      "name": "Fjällvägen 7, Sveg",
+      "gps": "62.032374,14.358192"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1300,
+    "name": "Svenljunga",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/svenljunga/",
+    "location": {
+      "name": "Kommunhuset, Boråsvägen 13, Svenljunga",
+      "gps": "57.499112,13.111025"
+    },
+    "services": []
+  },
+  {
+    "id": 766,
+    "name": "Svenstavik",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/svenstavik/",
+    "location": {
+      "name": "Centrumvägen 11,  Svenstavik",
+      "gps": "62.767662,14.438614"
+    },
+    "services": []
+  },
+  {
+    "id": 1156,
+    "name": "Säffle",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/saffle/",
+    "location": {
+      "name": "Hamngatan 4, Säffle",
+      "gps": "59.133512,12.923679"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 700,
+    "name": "Sälen",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/dalarna/salen/",
+    "location": {
+      "name": "Hagvägen 14, Sälen",
+      "gps": "61.15715,13.26708"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 7518,
+    "name": "Sävsjö",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/savsjo/",
+    "location": {
+      "name": "Mejensjögatan 6, Sävsjö",
+      "gps": "57.399561,14.661323"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 732,
+    "name": "Söderhamn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gavleborg/soderhamn/",
+    "location": {
+      "name": "Köpmangatan 21, Söderhamn",
+      "gps": "61.304731,17.06082"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1071,
+    "name": "Södertälje",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/sodertalje/",
+    "location": {
+      "name": "Nyköpingsvägen 23, Södertälje",
+      "gps": "59.187927,17.628206"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "name": "Södra Roslagen (Täby)",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-nord/taby/",
+    "location": {
+      "name": "Biblioteksgången 11, Täby",
+      "gps": "59.445024,18.06899"
+    },
+    "services": [
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      }
+    ]
+  },
+  {
+    "id": 671,
+    "name": "Sölvesborg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/blekinge/solvesborg/",
+    "location": {
+      "name": "Järnvägsgatan 2 , Sölvesborg",
+      "gps": "56.051724,14.582851"
+    },
+    "services": []
+  },
+  {
+    "id": 1114,
+    "name": "Tierp",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/uppsala-lan/tierp/",
+    "location": {
+      "name": "Gävlevägen 25, Tierp",
+      "gps": "60.341657,17.511625"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 819,
+    "name": "Tingsryd",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/tingsryd/",
+    "location": {
+      "name": "Torggatan 5, Tingsryd",
+      "gps": "56.525552,14.979028"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 944,
+    "name": "Tomelilla",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/tomelilla/",
+    "location": {
+      "name": "Gustafs Torg 16, Tomelilla",
+      "gps": "55.542451,13.957077"
+    },
+    "services": []
+  },
+  {
+    "id": 1158,
+    "name": "Torsby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/varmland/torsby/",
+    "location": {
+      "name": "Bergebyvägen 22, Torsby",
+      "gps": "60.146983,13.005797"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 804,
+    "name": "Torsås",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/torsas/",
+    "location": {
+      "name": "Karlskronavägen 7, Torsås",
+      "gps": "56.411347,15.996177"
+    },
+    "services": []
+  },
+  {
+    "id": 382539,
+    "name": "Tranemo",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/tranemo/",
+    "location": {
+      "name": "Kommunhuset, Storgatan 26, Tranemo",
+      "gps": "57.48419,13.35112"
+    },
+    "services": []
+  },
+  {
+    "id": 781,
+    "name": "Tranås",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/tranas/",
+    "location": {
+      "name": "Falkgatan 19, Tranås",
+      "gps": "58.035216,14.985098"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 946,
+    "name": "Trelleborg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/trelleborg/",
+    "location": {
+      "name": "Henry Dunkers gata 2, Trelleborg",
+      "gps": "55.371824,13.167215"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1306,
+    "name": "Trollhättan",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/trollhattan/",
+    "location": {
+      "name": "Klintvägen 2, Trollhättan",
+      "gps": "58.280147,12.290657"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1188,
+    "name": "Tärnaby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/tarnaby/",
+    "location": {
+      "name": "Västra Strandvägen 11, Tärnaby",
+      "gps": "65.711357,15.255791"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1308,
+    "name": "Uddevalla",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/uddevalla/",
+    "location": {
+      "name": "Lagerbergsgatan 35, Uddevalla",
+      "gps": "58.351256,11.940227"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 745,
+    "name": "Ullared",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/ullared/",
+    "location": {
+      "name": "Danska vägen 1, Ullared",
+      "gps": "57.137,12.71548"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1310,
+    "name": "Ulricehamn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/ulricehamn/",
+    "location": {
+      "name": "Boråsvägen 18, Ulricehamn",
+      "gps": "57.797663,13.413872"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1190,
+    "name": "Umeå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/umea/",
+    "location": {
+      "name": "Signalvägen 12, Umeå",
+      "gps": "63.8335334,20.2439752"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1117,
+    "name": "Uppsala",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/uppsala-lan/uppsala/",
+    "location": {
+      "name": "Svartbäcksgatan 49, Uppsala",
+      "gps": "59.865528,17.630946"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1119,
+    "name": "Uppsala - Boländerna",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/uppsala-lan/uppsala---bolanderna/",
+    "location": {
+      "name": "Knivstagatan 14-16, Uppsala",
+      "gps": "59.85525855783717,17.66456897252982"
+    },
+    "services": [
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Inlämning av vapen"
+      }
+    ]
+  },
+  {
+    "id": 1362,
+    "name": "Vadstena",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/vadstena/",
+    "location": {
+      "name": "Knivsmedsgatan 3, Vadstena",
+      "gps": "58.44665,14.888587"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1097,
+    "name": "Vagnhärad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/vagnharad/",
+    "location": {
+      "name": "Vagnhärads Torg 1D, Vagnhärad",
+      "gps": "58.945841,17.485391"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1364,
+    "name": "Valdemarsvik",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/valdemarsvik/",
+    "location": {
+      "name": "Garvaregatan 3, Valdemarsvik",
+      "gps": "58.205143,16.600564"
+    },
+    "services": []
+  },
+  {
+    "id": 1312,
+    "name": "Vara",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/vara/",
+    "location": {
+      "name": "Torggatan 10, Vara",
+      "gps": "58.261108,12.95279"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 747,
+    "name": "Varberg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/halland/varberg/",
+    "location": {
+      "name": "Östra Långgatan 5, Varberg",
+      "gps": "57.111451,12.255091"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 783,
+    "name": "Vetlanda",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/vetlanda/",
+    "location": {
+      "name": "Missionsgatan 4, Vetlanda",
+      "gps": "57.424844,15.090357"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1192,
+    "name": "Vilhelmina",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/vilhelmina/",
+    "location": {
+      "name": "Terminalgatan 2, Vilhelmina",
+      "gps": "64.61509,16.68489"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 806,
+    "name": "Vimmerby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/vimmerby/",
+    "location": {
+      "name": "Kungsgatan 10, Vimmerby",
+      "gps": "57.668271,15.861861"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1194,
+    "name": "Vindeln",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/vindeln/",
+    "location": {
+      "name": "Torggränd 10A, Vindeln",
+      "gps": "64.202599,19.718721"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "name": "Vingåker",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/sodermanland/vingaker/",
+    "location": {
+      "name": "Åbrogården, Storgatan 55, Vingåker",
+      "gps": "59.049361,15.874967"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 711,
+    "name": "Visby",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/gotland/visby/",
+    "location": {
+      "name": "Norra Hansegatan 2 B, Visby",
+      "gps": "57.63735,18.305441"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1314,
+    "name": "Vårgårda",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/vargarda/",
+    "location": {
+      "name": "Kungsgatan 40, Vårgårda",
+      "gps": "58.033216,12.809188"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1196,
+    "name": "Vännäs",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/vannas/",
+    "location": {
+      "name": "Norrlandsgatan 2, Vännäs",
+      "gps": "63.90429,19.752756"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 785,
+    "name": "Värnamo",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jonkopings-lan/varnamo/",
+    "location": {
+      "name": "Storgatan 53, Värnamo",
+      "gps": "57.183344,14.050065"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1068,
+    "name": "Västberga",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/stockholms-lan/stockholm-syd/vastberga/",
+    "location": {
+      "name": "Västberga Gårdsväg 52, Hägersten",
+      "gps": "59.291954,18.011047"
+    },
+    "services": [
+      {
+        "name": "Beslag"
+      }
+    ]
+  },
+  {
+    "id": 808,
+    "name": "Västervik",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kalmar-lan/vastervik/",
+    "location": {
+      "name": "Breviksvägen 35, Västervik",
+      "gps": "57.766423,16.619759"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1230,
+    "name": "Västerås",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastmanland/vasteras/",
+    "location": {
+      "name": "Västgötegatan 7, Västerås",
+      "gps": "59.607646,16.542119"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Ansök om provisoriskt pass"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 821,
+    "name": "Växjö ",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/vaxjo-/",
+    "location": {
+      "name": "Sandgärdsgatan 31, Växjö",
+      "gps": "56.878276,14.798882"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 950,
+    "name": "Ystad",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/ystad/",
+    "location": {
+      "name": "Kristianstadsvägen 51, Ystad",
+      "gps": "55.43936,13.82716"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 952,
+    "name": "Åhus",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/ahus/",
+    "location": {
+      "name": "Järnvägsgatan 7, Åhus",
+      "gps": "55.926898,14.300058"
+    },
+    "services": []
+  },
+  {
+    "id": 1318,
+    "name": "Åmål",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vastra-gotaland/amal/",
+    "location": {
+      "name": "Norra Långgatan 18, Åmål",
+      "gps": "59.051271,12.704634"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1211,
+    "name": "Ånge",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/ange/",
+    "location": {
+      "name": "Fridhemsvägen 6, Ånge",
+      "gps": "62.524741,15.664624"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 5639,
+    "name": "Åre",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/are/",
+    "location": {
+      "name": "Kurortsvägen 20, Åre",
+      "gps": "63.394506,13.096971"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Delgivning"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 827,
+    "name": "Åseda",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/aseda/",
+    "location": {
+      "name": "Olofsgatan 8, Åseda",
+      "gps": "57.171215,15.344492"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1198,
+    "name": "Åsele",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasterbotten/asele/",
+    "location": {
+      "name": "Lillgatan 6, Åsele",
+      "gps": "64.16182,17.354"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 954,
+    "name": "Åstorp",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/astorp/",
+    "location": {
+      "name": "Storgatan 5, Åstorp",
+      "gps": "56.134485,12.94856"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1366,
+    "name": "Åtvidaberg",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/atvidaberg/",
+    "location": {
+      "name": "Stenhusgatan 6A, Åtvidaberg",
+      "gps": "58.201018,15.998716"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      }
+    ]
+  },
+  {
+    "id": 829,
+    "name": "Älmhult",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/kronoberg/almhult/",
+    "location": {
+      "name": "Bäckgatan 17, Älmhult",
+      "gps": "56.540069,14.12805"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "name": "Älvsbyn",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/alvsbyn/",
+    "location": {
+      "name": "Storgatan 43, Älvsbyn",
+      "gps": "65.677241,20.997854"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 956,
+    "name": "Ängelholm",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/angelholm/",
+    "location": {
+      "name": "Polisgatan 2, Ängelholm",
+      "gps": "56.248623694102534,12.872065777524394"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1368,
+    "name": "Ödeshög",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/ostergotland/odeshog/",
+    "location": {
+      "name": "Tingshusgatan 4, Ödeshög",
+      "gps": "58.229398,14.655137"
+    },
+    "services": [
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      }
+    ]
+  },
+  {
+    "id": 1343,
+    "name": "Örebro",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/orebro-lan/orebro/",
+    "location": {
+      "name": "Järnvägsgatan 3, Örebro",
+      "gps": "59.278136,15.216131"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 958,
+    "name": "Örkelljunga",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/skane/orkelljunga/",
+    "location": {
+      "name": "Stockholmsvägen 2, Örkelljunga",
+      "gps": "56.283547,13.281082"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1213,
+    "name": "Örnsköldsvik",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/vasternorrland/ornskoldsvik/",
+    "location": {
+      "name": "Nytorgsgatan 1, Örnsköldsvik",
+      "gps": "63.292551,18.718383"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "name": "Östersund",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/jamtland/ostersund/",
+    "location": {
+      "name": "Fyrvallavägen 4, Östersund",
+      "gps": "63.176962,14.65975"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Beslag"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 1124,
+    "name": "Östhammar",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/uppsala-lan/osthammar/",
+    "location": {
+      "name": "Klockaregatan 11, Östhammar",
+      "gps": "60.259612,18.36821"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Ansök om pass och id-kort"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 869,
+    "name": "Överkalix",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/overkalix/",
+    "location": {
+      "name": "Skolgatan 1, Överkalix",
+      "gps": "66.388553,22.83961"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  },
+  {
+    "id": 871,
+    "name": "Övertorneå",
+    "Url": "https://polisen.se/om-polisen/kontakt/polisstationer/norrbotten/overtornea/",
+    "location": {
+      "name": "Sockenvägen 32, Övertorneå",
+      "gps": "66.389235,23.656569"
+    },
+    "services": [
+      {
+        "name": "Andra ärenden"
+      },
+      {
+        "name": "Anmäl brott eller borttappat föremål"
+      },
+      {
+        "name": "Hämta pass och id-kort"
+      },
+      {
+        "name": "Inlämning av vapen"
+      },
+      {
+        "name": "Lämna in upphittat föremål"
+      },
+      {
+        "name": "Provisorisk registreringsskylt"
+      }
+    ]
+  }
+]
