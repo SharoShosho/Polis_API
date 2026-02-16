@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import PoliceStations from './components/PoliceStations';
+import Events from './components/Events';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>Polisstationer och Aktuella Händelser</h1>
       </header>
+
+      <section id="police-stations">
+        <h2>Polisstationer</h2>
+        <PoliceStations />
+      </section>
+
+      <section id="events">
+        <h2>Aktuella Händelser</h2>
+        <Events />
+      </section>
+
+      <footer>
+        <p>&copy; 2026 Polis API Applikation</p>
+      </footer>
     </div>
   );
 }
