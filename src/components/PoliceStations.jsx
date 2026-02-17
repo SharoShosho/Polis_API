@@ -1,19 +1,39 @@
 import React, { useState, useEffect } from 'react';
-import Map from './Map';  // Importera Map-komponenten
+import Map from './Map';  // Importera kartkomponenten
+import Search from './Search';  // Importera Search-komponenten
 
 // Importera JSON-data för polisstationer
 import stationData from '../police_Stations.json';  // Se till att denna fil innehåller korrekt data
 
 function PoliceStations() {
   const [stations, setStations] = useState([]);
+  const [searchTerm, setSearchTerm] = useState(''); // Sökord
+  const [filteredStations, setFilteredStations] = useState([]);
 
   useEffect(() => {
     setStations(stationData);  // Ladda polisstationerna
   }, []);
 
+  useEffect(() => {
+    // Filtrera stationer baserat på sökordet
+    if (searchTerm === '') {
+      setFilteredStations(stations);  // Visa alla stationer om inget sökord
+    } else {
+      setFilteredStations(
+        stations.filter(station =>
+          station.name.toLowerCase().includes(searchTerm.toLowerCase())  // Filtrera efter namn
+        )
+      );
+    }
+  }, [searchTerm, stations]);
+
   return (
     <div id="stations-list">
-      {stations.map((station) => {
+      {/* Lägg till Search-komponenten */}
+      <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+
+      {/* Visa de filtrerade stationerna */}
+      {filteredStations.map((station) => {
         const [latitude, longitude] = station.location.gps.split(',').map(coord => parseFloat(coord.trim()));
 
         return (
