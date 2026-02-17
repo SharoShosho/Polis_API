@@ -1,20 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
-// Importera JSON-data eller hämta från ett API
-import eventData from '../events.json';  // Eller använd en fetch-förfrågan om du har ett API
-
 function Events() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Om du använder en extern API, gör en fetch här istället för att importera från JSON
-    // fetch('https://polisen.se/api/events')
-    //   .then((response) => response.json())
-    //   .then((data) => setEvents(data));
-
-    // För nu använder vi den importerade JSON-datan
-    setEvents(eventData);
-  }, []);
+    // Hämtar den senaste händelsedata från API:et
+    fetch('https://polisen.se/api/events')  // Ersätt med det riktiga API:et
+      .then((response) => response.json())
+      .then((data) => setEvents(data))
+      .catch((error) => console.error('Error fetching events:', error));
+  }, []);  // Körs en gång när komponenten laddas
 
   return (
     <div id="events-list">
