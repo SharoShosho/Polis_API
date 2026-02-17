@@ -142,6 +142,39 @@ section {
   border-radius: 8px;
 }
 
+/* Stil för dropdown */
+select {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Stil för varje event */
+.event {
+  background-color: #2d3d61;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event h4, .event p {
+  margin-bottom: 10px;
+}
+
+.event a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.event a:hover {
+  text-decoration: underline;
+}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
