@@ -119,6 +119,29 @@ section {
 .station a:hover, .event a:hover {
   text-decoration: underline;
 }
+/* Lägg till stil för kartan */
+.map-container {
+  margin-top: 20px; /* Lägger till ett avstånd mellan texten och kartan */
+  margin-bottom: 20px; /* Avstånd nedanför kartan */
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 200px; /* Höjd på kartan */
+  width: 100%; /* Gör så att kartan tar upp hela bredden av div:en */
+  max-width: 300px; /* Maximal bredd på kartan */
+  margin-left: auto;
+  margin-right: auto; /* Centrerar kartan */
+}
+
+/* Stilar för statisk karta */
+.static-map {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
@@ -141,10 +164,6 @@ section {
 
   section {
     padding: 15px;
-  }
-
-  #stations-list, #events-list {
-    padding-left: 20px;
   }
 
   footer {
