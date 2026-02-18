@@ -1,9 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';  // Importera React Router
-import PoliceStations from './components/PoliceStations';
-import Events from './components/Events';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { auth,} from './Firebase';  // Importera Firebase Authentication
+import PoliceStations from './components/policeStations/PoliceStations';
+import Events from './components/events/Events';
+import Login from './components/auth/Login';  // Se till att sökvägen är korrekt
+import Favorites from './components/favorites/Favorites'; // Importera Favorites-komponenten
+
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  // Lyssna på om användaren loggar in eller ut
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged(setUser);
+    return () => unsubscribe();
+  }, []);
+
   return (
     <Router>
       <div>
@@ -19,6 +31,15 @@ function App() {
           <Link to="/events">
             <button>Aktuella Händelser</button>
           </Link>
+          {user ? (
+            <Link to="/favorites">
+              <button>Favoriter</button>
+            </Link>
+          ) : (
+            <Link to="/login">
+              <button>Logga in</button>
+            </Link>
+          )}
         </nav>
 
         <section id="content">
@@ -26,6 +47,8 @@ function App() {
           <Routes>
             <Route path="/police-stations" element={<PoliceStations />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/favorites" element={user ? <Favorites /> : <Login />} />
           </Routes>
         </section>
 
