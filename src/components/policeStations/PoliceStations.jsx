@@ -71,7 +71,8 @@ function PoliceStations() {
                 'Ingen tjänst tillgänglig'
               )}
             </p>
-
+            
+            <p><a href={station.Url} target="_blank" rel="noopener noreferrer">Mer info</a></p>
 
             <button onClick={() => handleAddFavorite(station)}>Lägg till favorit</button>
           </div>
