@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { auth, realtimeDb } from '../../Firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import { ref, onValue, set, remove } from 'firebase/database';
 
 function Events() {
   const [events, setEvents] = useState([]);
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState('');  // För att hålla reda på vald stad/plats
+  const [favoriteEventIds, setFavoriteEventIds] = useState({});
+  const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
     // Hämtar den senaste händelsedata från API:et
@@ -26,6 +31,49 @@ function Events() {
       );
     }
   }, [selectedLocation, events]);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setCurrentUser(user);
+      if (!user) {
+        setFavoriteEventIds({});
+        return;
+      }
+
+      const eventsRef = ref(realtimeDb, `favorites/${user.uid}/events`);
+      onValue(eventsRef, (snapshot) => {
+        setFavoriteEventIds(snapshot.val() || {});
+      });
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  const handleAddEventFavorite = async (event) => {
+    if (!currentUser) {
+      alert('Logga in for att lagga till favoriter.');
+      return;
+    }
+
+    const eventRef = ref(realtimeDb, `favorites/${currentUser.uid}/events/${event.id}`);
+    await set(eventRef, {
+      id: event.id,
+      name: event.name,
+      locationName: event.location?.name || '',
+      datetime: event.datetime || '',
+      type: event.type || '',
+      url: event.url || ''
+    });
+  };
+
+  const handleRemoveEventFavorite = async (eventId) => {
+    if (!currentUser) {
+      return;
+    }
+
+    const eventRef = ref(realtimeDb, `favorites/${currentUser.uid}/events/${eventId}`);
+    await remove(eventRef);
+  };
 
   return (
     <div id="events-list">
@@ -61,6 +109,13 @@ function Events() {
           <p><strong>Typ:</strong> {event.type}</p>
           <p>{event.summary}</p>
           <a href={event.url} target="_blank" rel="noopener noreferrer">Läs mer</a>
+          <div style={{ marginTop: '10px' }}>
+            {favoriteEventIds[event.id] ? (
+              <button onClick={() => handleRemoveEventFavorite(event.id)}>Ta bort favorit</button>
+            ) : (
+              <button onClick={() => handleAddEventFavorite(event)}>Lagg till favorit</button>
+            )}
+          </div>
         </div>
       ))}
     </div>

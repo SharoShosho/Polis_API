@@ -175,6 +175,35 @@ select {
   text-decoration: underline;
 }
 
+.auth-card {
+  max-width: 460px;
+  margin: 20px auto;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.auth-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #2f4368;
+  font-size: 1rem;
+}
+
+.auth-error {
+  margin-top: 10px;
+  color: #ff8c8c;
+}
+
+.auth-success {
+  margin-top: 10px;
+  color: #8cffb4;
+}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {

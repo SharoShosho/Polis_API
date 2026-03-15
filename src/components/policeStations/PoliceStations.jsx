@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Map from '../map/Map';  // Importera kartkomponenten
 import Search from '../search/Search';  // Importera Search-komponenten
-import { auth, firestore } from '../../Firebase'; // Justera sökvägen beroende på din mappstruktur
+import { auth, realtimeDb } from '../../Firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import { ref, onValue, set, remove } from 'firebase/database';
 
 // Importera JSON-data för polisstationer
 import stationData from '../../police_Stations.json';  // Se till att denna fil innehåller korrekt data
@@ -10,7 +12,8 @@ function PoliceStations() {
   const [stations, setStations] = useState([]);
   const [searchTerm, setSearchTerm] = useState(''); // Sökord
   const [filteredStations, setFilteredStations] = useState([]);
-  const [favorites, setFavorites] = useState([]);  // State för favoriter
+  const [favoriteStationIds, setFavoriteStationIds] = useState({});
+  const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
     setStations(stationData);  // Ladda polisstationerna
@@ -29,15 +32,45 @@ function PoliceStations() {
     }
   }, [searchTerm, stations]);
 
-  const handleAddFavorite = (station) => {
-    const user = auth.currentUser;
-    if (user) {
-      const newFavorites = [...favorites, station];
-      firestore.collection('favorites').doc(user.uid).set({
-        stations: newFavorites,
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setCurrentUser(user);
+      if (!user) {
+        setFavoriteStationIds({});
+        return;
+      }
+
+      const stationsRef = ref(realtimeDb, `favorites/${user.uid}/stations`);
+      onValue(stationsRef, (snapshot) => {
+        setFavoriteStationIds(snapshot.val() || {});
       });
-      setFavorites(newFavorites);  // Uppdatera state
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  const handleAddFavorite = async (station) => {
+    if (!currentUser) {
+      alert('Logga in for att lagga till favoriter.');
+      return;
     }
+
+    const stationRef = ref(realtimeDb, `favorites/${currentUser.uid}/stations/${station.id}`);
+    await set(stationRef, {
+      id: station.id,
+      name: station.name,
+      locationName: station.location?.name || '',
+      url: station.Url || ''
+    });
+  };
+
+  const handleRemoveFavorite = async (stationId) => {
+    if (!currentUser) {
+      return;
+    }
+
+    const stationRef = ref(realtimeDb, `favorites/${currentUser.uid}/stations/${stationId}`);
+    await remove(stationRef);
   };
 
   return (
@@ -74,7 +107,11 @@ function PoliceStations() {
             
             <p><a href={station.Url} target="_blank" rel="noopener noreferrer">Mer info</a></p>
 
-            <button onClick={() => handleAddFavorite(station)}>Lägg till favorit</button>
+            {favoriteStationIds[station.id] ? (
+              <button onClick={() => handleRemoveFavorite(station.id)}>Ta bort favorit</button>
+            ) : (
+              <button onClick={() => handleAddFavorite(station)}>Lagg till favorit</button>
+            )}
           </div>
         );
       })}

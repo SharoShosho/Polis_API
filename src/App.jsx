@@ -4,6 +4,7 @@ import { auth,} from './Firebase';  // Importera Firebase Authentication
 import PoliceStations from './components/policeStations/PoliceStations';
 import Events from './components/events/Events';
 import Login from './components/auth/Login';  // Se till att sökvägen är korrekt
+import Register from './components/auth/Register';
 import Favorites from './components/favorites/Favorites'; // Importera Favorites-komponenten
 
 
@@ -36,9 +37,14 @@ function App() {
               <button>Favoriter</button>
             </Link>
           ) : (
-            <Link to="/login">
-              <button>Logga in</button>
-            </Link>
+            <>
+              <Link to="/login">
+                <button>Logga in</button>
+              </Link>
+              <Link to="/register">
+                <button>Registrera</button>
+              </Link>
+            </>
           )}
         </nav>
 
@@ -48,6 +54,7 @@ function App() {
             <Route path="/police-stations" element={<PoliceStations />} />
             <Route path="/events" element={<Events />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
             <Route path="/favorites" element={user ? <Favorites /> : <Login />} />
           </Routes>
         </section>
