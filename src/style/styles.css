@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #0a1d32;
-  color: white;
+  background-color: #f4f6f9;
+  color: #1a1a2e;
   text-align: center;
   line-height: 1.6;
   padding: 0 20px;
@@ -19,156 +19,161 @@ body {
 }
 
 header {
-  background-color: #002f5f;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  background-color: #1a2d4f;
+  padding: 16px 24px;
+  margin-bottom: 24px;
 }
 
 h1 {
-  font-size: 2.5rem;
-  color: #ffd700;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.5px;
 }
 
 h2 {
-  color: #ffd700;
+  color: #1a2d4f;
   margin-top: 20px;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 footer {
-  background-color: #002f5f;
-  padding: 10px;
-  color: white;
+  background-color: #1a2d4f;
+  padding: 12px;
+  color: #c8d0db;
   text-align: center;
-  border-radius: 8px;
-  margin-top: 20px;
-  position: relative;
-  bottom: 0;
+  margin-top: 32px;
+  font-size: 0.85rem;
 }
 
 /* Navigation */
 nav {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 30px;
+  gap: 10px;
+  margin-top: 24px;
+  flex-wrap: wrap;
 }
 
 button {
-  background-color: #002f5f;
-  color: white;
-  font-size: 1.1rem;
-  padding: 12px 25px;
+  background-color: #1a2d4f;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 8px 18px;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, opacity 0.2s ease;
 }
 
 button:hover {
-  background-color: #ffd700;
-  transform: scale(1.05);
+  background-color: #2c4a7c;
+  opacity: 0.95;
 }
 
 button:focus {
-  outline: none;
+  outline: 2px solid #4a7fc1;
+  outline-offset: 2px;
 }
 
 /* Sections */
 section {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   padding: 20px;
-  background-color: #1e2d47;
+  background-color: #ffffff;
   border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 #police-stations, #events {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 /* Police Stations and Events Lists */
 #stations-list, #events-list {
-  margin-top: 20px;
+  margin-top: 16px;
   list-style: none;
 }
 
 .station, .event {
-  background-color: #2d3d61;
-  padding: 15px;
-  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid #dde3ed;
+  padding: 14px 16px;
+  margin-bottom: 12px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  text-align: left;
 }
 
 .station h3, .event h4 {
-  color: #ffd700;
+  color: #1a2d4f;
+  font-size: 1.05rem;
+  margin-bottom: 6px;
 }
 
 .station p, .event p {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+  font-size: 0.92rem;
+  color: #444;
 }
 
 .station a, .event a {
-  color: #ffd700;
+  color: #2c5fa8;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .station a:hover, .event a:hover {
   text-decoration: underline;
 }
-/* Lägg till stil för kartan */
+
+/* Map container */
 .map-container {
-  margin-top: 20px; /* Lägger till ett avstånd mellan texten och kartan */
-  margin-bottom: 20px; /* Avstånd nedanför kartan */
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #eef1f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
   overflow: hidden;
-  height: 200px; /* Höjd på kartan */
-  width: 100%; /* Gör så att kartan tar upp hela bredden av div:en */
-  max-width: 300px; /* Maximal bredd på kartan */
+  height: 180px;
+  width: 100%;
+  max-width: 280px;
   margin-left: auto;
-  margin-right: auto; /* Centrerar kartan */
+  margin-right: auto;
 }
 
-/* Stilar för statisk karta */
+/* Static map image */
 .static-map {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
-/* Stil för dropdown */
+/* Dropdown */
 select {
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  margin-bottom: 20px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #c0c8d8;
+  background-color: #ffffff;
+  color: #1a1a2e;
+  font-size: 0.92rem;
+  margin-bottom: 16px;
   width: 100%;
-  max-width: 400px;
+  max-width: 380px;
 }
 
-/* Stil för varje event */
-.event {
-  background-color: #2d3d61;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
+/* Event items */
 .event h4, .event p {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .event a {
-  color: #ffd700;
+  color: #2c5fa8;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .event a:hover {
@@ -176,16 +181,18 @@ select {
 }
 
 .location-subscriptions {
-  background-color: #253859;
+  background-color: #f0f3f8;
+  border: 1px solid #dde3ed;
   border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 20px;
+  padding: 14px;
+  margin-bottom: 16px;
+  text-align: left;
 }
 
 .location-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
   margin-top: 10px;
 }
 
@@ -193,19 +200,27 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  background-color: #2d3d61;
-  border-radius: 8px;
-  padding: 10px;
+  gap: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dde3ed;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 0.88rem;
 }
 
 .location-item span {
   text-align: left;
+  color: #333;
 }
 
 .auth-card {
-  max-width: 460px;
+  max-width: 440px;
   margin: 20px auto;
+  background-color: #ffffff;
+  border: 1px solid #dde3ed;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 .auth-form {
@@ -216,22 +231,25 @@ select {
 }
 
 .auth-form input {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #2f4368;
-  font-size: 1rem;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #c0c8d8;
+  font-size: 0.95rem;
+  background-color: #f9fafc;
+  color: #1a1a2e;
 }
 
 .auth-error {
   margin-top: 10px;
-  color: #ff8c8c;
+  color: #c0392b;
+  font-size: 0.9rem;
 }
 
 .auth-success {
   margin-top: 10px;
-  color: #8cffb4;
+  color: #1e7e4e;
+  font-size: 0.9rem;
 }
-
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
@@ -239,25 +257,25 @@ select {
     padding: 10px;
   }
 
-  header h1 {
-    font-size: 2rem;
+  h1 {
+    font-size: 1.4rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
   }
 
   button {
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 7px 14px;
+    font-size: 0.85rem;
   }
 
   section {
-    padding: 15px;
+    padding: 14px;
   }
 
   footer {
-    font-size: 0.9rem;
-    padding: 15px;
+    font-size: 0.8rem;
+    padding: 12px;
   }
 }
