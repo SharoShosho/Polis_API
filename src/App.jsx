@@ -1,19 +1,26 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { auth,} from './Firebase';  // Importera Firebase Authentication
+import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
+import { onAuthStateChanged } from 'firebase/auth';
+import { auth } from './Firebase';
 import PoliceStations from './components/policeStations/PoliceStations';
 import Events from './components/events/Events';
-import Login from './components/auth/Login';  // Se till att sökvägen är korrekt
+import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import Favorites from './components/favorites/Favorites'; // Importera Favorites-komponenten
+import Favorites from './components/favorites/Favorites';
+import Profile from './components/profile/Profile';
+import Home from './components/home/Home';
 
 
 function App() {
   const [user, setUser] = useState(null);
+  const [authResolved, setAuthResolved] = useState(false);
 
-  // Lyssna på om användaren loggar in eller ut
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged(setUser);
+    const unsubscribe = onAuthStateChanged(auth, (nextUser) => {
+      setUser(nextUser);
+      setAuthResolved(true);
+    });
+
     return () => unsubscribe();
   }, []);
 
@@ -33,9 +40,14 @@ function App() {
             <button>Aktuella Händelser</button>
           </Link>
           {user ? (
-            <Link to="/favorites">
-              <button>Favoriter</button>
-            </Link>
+            <>
+              <Link to="/favorites">
+                <button>Favoriter</button>
+              </Link>
+              <Link to="/profile">
+                <button>Min profil</button>
+              </Link>
+            </>
           ) : (
             <>
               <Link to="/login">
@@ -49,14 +61,20 @@ function App() {
         </nav>
 
         <section id="content">
-          {/* Routing till komponenterna */}
-          <Routes>
-            <Route path="/police-stations" element={<PoliceStations />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/favorites" element={user ? <Favorites /> : <Login />} />
-          </Routes>
+          {!authResolved ? (
+            <p>Kontrollerar inloggning...</p>
+          ) : (
+            <Routes>
+              <Route path="/" element={<Home user={user} />} />
+              <Route path="/police-stations" element={<PoliceStations />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/login" element={user ? <Navigate to="/profile" replace /> : <Login />} />
+              <Route path="/register" element={user ? <Navigate to="/profile" replace /> : <Register />} />
+              <Route path="/favorites" element={user ? <Favorites /> : <Navigate to="/login" replace />} />
+              <Route path="/profile" element={user ? <Profile /> : <Navigate to="/login" replace />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          )}
         </section>
 
         <footer>
