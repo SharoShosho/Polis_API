@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { auth, realtimeDb } from '../../Firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { ref, onValue, set, remove } from 'firebase/database';
@@ -257,12 +258,14 @@ function Events() {
             <p><strong>Tid:</strong> {new Date(event.datetime).toLocaleString()}</p>
             <p><strong>Typ:</strong> {event.type}</p>
             <p>{event.summary}</p>
-            <a href={event.url} target="_blank" rel="noopener noreferrer">Läs mer</a>
-            <div style={{ marginTop: '10px' }}>
+            <div style={{ marginTop: '10px', display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+              <Link to={`/events/${event.id}`} state={{ event }}>
+                <button type="button">Visa detaljer</button>
+              </Link>
               {favoriteEventIds[event.id] ? (
                 <button onClick={() => handleRemoveEventFavorite(event.id)}>Ta bort favorit</button>
               ) : (
-                <button onClick={() => handleAddEventFavorite(event)}>Lagg till favorit</button>
+                <button onClick={() => handleAddEventFavorite(event)}>Lägg till favorit</button>
               )}
             </div>
           </div>

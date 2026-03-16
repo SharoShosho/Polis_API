@@ -4,6 +4,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './Firebase';
 import PoliceStations from './components/policeStations/PoliceStations';
 import Events from './components/events/Events';
+import EventDetail from './components/events/EventDetail';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Favorites from './components/favorites/Favorites';
@@ -68,6 +69,7 @@ function App() {
               <Route path="/" element={<Home user={user} />} />
               <Route path="/police-stations" element={<PoliceStations />} />
               <Route path="/events" element={<Events />} />
+              <Route path="/events/:eventId" element={<EventDetail />} />
               <Route path="/login" element={user ? <Navigate to="/profile" replace /> : <Login />} />
               <Route path="/register" element={user ? <Navigate to="/profile" replace /> : <Register />} />
               <Route path="/favorites" element={user ? <Favorites /> : <Navigate to="/login" replace />} />
