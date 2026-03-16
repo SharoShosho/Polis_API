@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "concurrently": "^9.1.2",
     "firebase": "^12.9.0",
     "leaflet": "^1.9.4",
     "react": "^19.0.0",
@@ -13,6 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:frontend": "react-scripts start",
+    "start:backend": "npm --prefix functions run serve",
+    "start:all": "concurrently -k -n FRONTEND,BACKEND -c green,cyan \"npm run start:frontend\" \"npm run start:backend\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

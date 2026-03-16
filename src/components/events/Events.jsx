@@ -8,7 +8,16 @@ function Events() {
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState('');  // För att hålla reda på vald stad/plats
   const [favoriteEventIds, setFavoriteEventIds] = useState({});
+  const [favoriteLocationIds, setFavoriteLocationIds] = useState({});
   const [currentUser, setCurrentUser] = useState(null);
+
+  const uniqueLocations = [...new Set(events.map((event) => event.location?.name).filter(Boolean))];
+
+  const getLocationKey = (locationName) =>
+    locationName
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
 
   useEffect(() => {
     // Hämtar den senaste händelsedata från API:et
@@ -41,8 +50,12 @@ function Events() {
       }
 
       const eventsRef = ref(realtimeDb, `favorites/${user.uid}/events`);
+      const locationsRef = ref(realtimeDb, `favorites/${user.uid}/locations`);
       onValue(eventsRef, (snapshot) => {
         setFavoriteEventIds(snapshot.val() || {});
+      });
+      onValue(locationsRef, (snapshot) => {
+        setFavoriteLocationIds(snapshot.val() || {});
       });
     });
 
@@ -75,8 +88,57 @@ function Events() {
     await remove(eventRef);
   };
 
+  const handleAddLocationFavorite = async (locationName) => {
+    if (!currentUser) {
+      alert('Logga in for att prenumerera pa omraden.');
+      return;
+    }
+
+    const locationKey = getLocationKey(locationName);
+    const locationRef = ref(realtimeDb, `favorites/${currentUser.uid}/locations/${locationKey}`);
+    await set(locationRef, {
+      id: locationKey,
+      name: locationName,
+      emailNotifications: true,
+      pushNotifications: true,
+      createdAt: new Date().toISOString()
+    });
+  };
+
+  const handleRemoveLocationFavorite = async (locationName) => {
+    if (!currentUser) {
+      return;
+    }
+
+    const locationKey = getLocationKey(locationName);
+    const locationRef = ref(realtimeDb, `favorites/${currentUser.uid}/locations/${locationKey}`);
+    await remove(locationRef);
+  };
+
   return (
     <div id="events-list">
+      <div className="location-subscriptions">
+        <h4>Prenumerera pa omraden/stader</h4>
+        <p>Valj vilka omraden du vill fa notiser for (e-post/push installningar sparas per omrade).</p>
+        <div className="location-grid">
+          {uniqueLocations.map((location) => {
+            const locationKey = getLocationKey(location);
+            const isFavoriteLocation = Boolean(favoriteLocationIds[locationKey]);
+
+            return (
+              <div key={locationKey} className="location-item">
+                <span>{location}</span>
+                {isFavoriteLocation ? (
+                  <button onClick={() => handleRemoveLocationFavorite(location)}>Ta bort favorit</button>
+                ) : (
+                  <button onClick={() => handleAddLocationFavorite(location)}>Favorit omrade</button>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
       <div>
         <label htmlFor="locationFilter">Välj stad/plats: </label>
         <select
@@ -92,7 +154,7 @@ function Events() {
         >
           <option value="">Alla</option>
           {/* Dynamiskt skapa alternativ från unika städer */}
-          {[...new Set(events.map(event => event.location.name))].map((location, index) => (
+          {uniqueLocations.map((location, index) => (
             <option key={index} value={location}>
               {location}
             </option>
