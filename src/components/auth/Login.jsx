@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { auth } from '../../Firebase'; // Importera Firebase Authentication
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const getLoginErrorMessage = (code) => {
   switch (code) {
@@ -26,13 +26,15 @@ function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
+    setError('');
 
     signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        console.log('Inloggad:', userCredential.user);
+      .then(() => {
+        navigate('/profile');
       })
       .catch((error) => {
         setError(getLoginErrorMessage(error.code));
