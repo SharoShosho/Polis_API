@@ -118,8 +118,8 @@ function Events() {
   return (
     <div id="events-list">
       <div className="location-subscriptions">
-        <h4>Prenumerera pa omraden/stader</h4>
-        <p>Valj vilka omraden du vill fa notiser for (e-post/push installningar sparas per omrade).</p>
+        <h4>Prenumerera pa områden/städer</h4>
+        <p>Valj vilka områden du vill få notiser för (e-post/push inställningar sparas per område).</p>
         <div className="location-grid">
           {uniqueLocations.map((location) => {
             const locationKey = getLocationKey(location);
@@ -131,7 +131,7 @@ function Events() {
                 {isFavoriteLocation ? (
                   <button onClick={() => handleRemoveLocationFavorite(location)}>Ta bort favorit</button>
                 ) : (
-                  <button onClick={() => handleAddLocationFavorite(location)}>Favorit omrade</button>
+                  <button onClick={() => handleAddLocationFavorite(location)}>Favorit område</button>
                 )}
               </div>
             );
