@@ -3,15 +3,49 @@ import { auth, realtimeDb } from '../../Firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { ref, onValue, set, remove } from 'firebase/database';
 
+const getEventTimestamp = (event) => {
+  const timestamp = new Date(event.datetime).getTime();
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+};
+
+const withinTimeRange = (event, timeRange) => {
+  if (timeRange === 'all') {
+    return true;
+  }
+
+  const eventTimestamp = getEventTimestamp(event);
+  if (!eventTimestamp) {
+    return false;
+  }
+
+  const now = Date.now();
+  const windowByRange = {
+    '24h': 24 * 60 * 60 * 1000,
+    '7d': 7 * 24 * 60 * 60 * 1000,
+    '30d': 30 * 24 * 60 * 60 * 1000
+  };
+
+  const windowMs = windowByRange[timeRange];
+  if (!windowMs) {
+    return true;
+  }
+
+  return eventTimestamp >= now - windowMs;
+};
+
 function Events() {
   const [events, setEvents] = useState([]);
   const [filteredEvents, setFilteredEvents] = useState([]);
-  const [selectedLocation, setSelectedLocation] = useState('');  // För att hålla reda på vald stad/plats
+  const [selectedLocation, setSelectedLocation] = useState('');
+  const [selectedType, setSelectedType] = useState('');
+  const [selectedTimeRange, setSelectedTimeRange] = useState('all');
+  const [sortOrder, setSortOrder] = useState('newest');
   const [favoriteEventIds, setFavoriteEventIds] = useState({});
   const [favoriteLocationIds, setFavoriteLocationIds] = useState({});
   const [currentUser, setCurrentUser] = useState(null);
 
   const uniqueLocations = [...new Set(events.map((event) => event.location?.name).filter(Boolean))];
+  const uniqueTypes = [...new Set(events.map((event) => event.type).filter(Boolean))];
 
   const getLocationKey = (locationName) =>
     locationName
@@ -31,15 +65,26 @@ function Events() {
   }, []);  // Körs en gång när komponenten laddas
 
   useEffect(() => {
-    // Filtrera händelser baserat på vald plats
-    if (selectedLocation === '') {
-      setFilteredEvents(events);  // Visa alla om ingen stad är vald
-    } else {
-      setFilteredEvents(
-        events.filter(event => event.location.name.toLowerCase().includes(selectedLocation.toLowerCase()))
-      );
-    }
-  }, [selectedLocation, events]);
+    const nextFilteredEvents = events
+      .filter((event) => {
+        const locationName = event.location?.name || '';
+
+        const locationMatch =
+          selectedLocation === '' || locationName.toLowerCase().includes(selectedLocation.toLowerCase());
+        const typeMatch = selectedType === '' || event.type === selectedType;
+        const timeMatch = withinTimeRange(event, selectedTimeRange);
+
+        return locationMatch && typeMatch && timeMatch;
+      })
+      .sort((a, b) => {
+        const aTime = getEventTimestamp(a);
+        const bTime = getEventTimestamp(b);
+
+        return sortOrder === 'oldest' ? aTime - bTime : bTime - aTime;
+      });
+
+    setFilteredEvents(nextFilteredEvents);
+  }, [events, selectedLocation, selectedType, selectedTimeRange, sortOrder]);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -139,47 +184,90 @@ function Events() {
         </div>
       </div>
 
-      <div>
-        <label htmlFor="locationFilter">Välj stad/plats: </label>
-        <select
-          id="locationFilter"
-          value={selectedLocation}
-          onChange={(e) => setSelectedLocation(e.target.value)}  // Uppdatera vald plats
-          style={{
-            padding: '10px',
-            borderRadius: '5px',
-            fontSize: '16px',
-            marginBottom: '20px',
-          }}
-        >
-          <option value="">Alla</option>
-          {/* Dynamiskt skapa alternativ från unika städer */}
-          {uniqueLocations.map((location, index) => (
-            <option key={index} value={location}>
-              {location}
-            </option>
-          ))}
-        </select>
+      <div className="events-filters">
+        <div className="events-filter-item">
+          <label htmlFor="locationFilter">Stad/plats</label>
+          <select
+            id="locationFilter"
+            value={selectedLocation}
+            onChange={(e) => setSelectedLocation(e.target.value)}
+          >
+            <option value="">Alla</option>
+            {uniqueLocations.map((location) => (
+              <option key={location} value={location}>
+                {location}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="events-filter-item">
+          <label htmlFor="typeFilter">Typ av händelse</label>
+          <select
+            id="typeFilter"
+            value={selectedType}
+            onChange={(e) => setSelectedType(e.target.value)}
+          >
+            <option value="">Alla typer</option>
+            {uniqueTypes.map((type) => (
+              <option key={type} value={type}>
+                {type}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="events-filter-item">
+          <label htmlFor="timeFilter">Tidsspann</label>
+          <select
+            id="timeFilter"
+            value={selectedTimeRange}
+            onChange={(e) => setSelectedTimeRange(e.target.value)}
+          >
+            <option value="all">Alla tider</option>
+            <option value="24h">Senaste 24 timmarna</option>
+            <option value="7d">Senaste 7 dagarna</option>
+            <option value="30d">Senaste 30 dagarna</option>
+          </select>
+        </div>
+
+        <div className="events-filter-item">
+          <label htmlFor="sortFilter">Sortering</label>
+          <select
+            id="sortFilter"
+            value={sortOrder}
+            onChange={(e) => setSortOrder(e.target.value)}
+          >
+            <option value="newest">Nyast först</option>
+            <option value="oldest">Äldst först</option>
+          </select>
+        </div>
       </div>
 
+      <p className="events-count">Visar {filteredEvents.length} händelser</p>
+
       {/* Rendera de filtrerade händelserna */}
-      {filteredEvents.map((event) => (
-        <div key={event.id} className="event">
-          <h4>{event.name}</h4>
-          <p><strong>Plats:</strong> {event.location.name}</p>
-          <p><strong>Tid:</strong> {new Date(event.datetime).toLocaleString()}</p>
-          <p><strong>Typ:</strong> {event.type}</p>
-          <p>{event.summary}</p>
-          <a href={event.url} target="_blank" rel="noopener noreferrer">Läs mer</a>
-          <div style={{ marginTop: '10px' }}>
-            {favoriteEventIds[event.id] ? (
-              <button onClick={() => handleRemoveEventFavorite(event.id)}>Ta bort favorit</button>
-            ) : (
-              <button onClick={() => handleAddEventFavorite(event)}>Lagg till favorit</button>
-            )}
+      {filteredEvents.length === 0 ? (
+        <p>Inga händelser matchar dina filter.</p>
+      ) : (
+        filteredEvents.map((event) => (
+          <div key={event.id} className="event">
+            <h4>{event.name}</h4>
+            <p><strong>Plats:</strong> {event.location?.name || 'Okänd plats'}</p>
+            <p><strong>Tid:</strong> {new Date(event.datetime).toLocaleString()}</p>
+            <p><strong>Typ:</strong> {event.type}</p>
+            <p>{event.summary}</p>
+            <a href={event.url} target="_blank" rel="noopener noreferrer">Läs mer</a>
+            <div style={{ marginTop: '10px' }}>
+              {favoriteEventIds[event.id] ? (
+                <button onClick={() => handleRemoveEventFavorite(event.id)}>Ta bort favorit</button>
+              ) : (
+                <button onClick={() => handleAddEventFavorite(event)}>Lagg till favorit</button>
+              )}
+            </div>
           </div>
-        </div>
-      ))}
+        ))
+      )}
     </div>
   );
 }

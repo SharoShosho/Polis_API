@@ -180,6 +180,34 @@ select {
   text-decoration: underline;
 }
 
+.events-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.events-filter-item label {
+  display: block;
+  font-size: 0.88rem;
+  color: #3f4c5f;
+  margin-bottom: 6px;
+}
+
+.events-filter-item select {
+  width: 100%;
+  max-width: none;
+  margin-bottom: 0;
+}
+
+.events-count {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #3f4c5f;
+  margin-bottom: 12px;
+}
+
 .location-subscriptions {
   background-color: #f0f3f8;
   border: 1px solid #dde3ed;
