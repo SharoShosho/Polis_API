@@ -2,6 +2,10 @@
 
 En React-app som visar polisstationer och aktuella händelser från Polisen, med Firebase-inloggning, favoriter, profilsida och notifieringar för favoritområden.
 
+## Status
+
+Appen är för närvarande inte deployad, eftersom notifieringsdelen använder schemalagda Cloud Functions som kan medföra kostnader.
+
 ## Funktioner
 
 - Startsida med välkomsttext och snabblänkar till appens viktigaste delar.
