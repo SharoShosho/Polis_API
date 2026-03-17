@@ -30,7 +30,7 @@ function App() {
     <Router>
       <div>
         <header>
-          <h1>Polisstationer och Aktuella Händelser</h1>
+          <h1>Polisens API</h1>
         </header>
 
         {/* Navigeringsknappar */}
