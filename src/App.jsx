@@ -5,6 +5,7 @@ import { auth } from './Firebase';
 import PoliceStations from './components/policeStations/PoliceStations';
 import Events from './components/events/Events';
 import EventDetail from './components/events/EventDetail';
+import NotificationCenter from './components/notifications/NotificationCenter';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Favorites from './components/favorites/Favorites';
@@ -45,6 +46,9 @@ function App() {
               <Link to="/favorites">
                 <button>Favoriter</button>
               </Link>
+              <Link to="/notifications">
+                <button>Notiscenter</button>
+              </Link>
               <Link to="/profile">
                 <button>Min profil</button>
               </Link>
@@ -70,6 +74,7 @@ function App() {
               <Route path="/police-stations" element={<PoliceStations />} />
               <Route path="/events" element={<Events />} />
               <Route path="/events/:eventId" element={<EventDetail />} />
+              <Route path="/notifications" element={user ? <NotificationCenter /> : <Navigate to="/login" replace />} />
               <Route path="/login" element={user ? <Navigate to="/profile" replace /> : <Login />} />
               <Route path="/register" element={user ? <Navigate to="/profile" replace /> : <Register />} />
               <Route path="/favorites" element={user ? <Favorites /> : <Navigate to="/login" replace />} />

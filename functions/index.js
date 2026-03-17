@@ -29,6 +29,40 @@ function shouldNotifyForLocation(eventLocationName, locationName) {
   return eventLocationName.toLowerCase().includes(locationName.toLowerCase());
 }
 
+function getLocationKey(locationName) {
+  return String(locationName || '')
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+}
+
+async function writeInAppNotifications(uid, locationName, events, channels) {
+  const notificationsRef = db.ref(`notifications/${uid}`);
+  const updates = {};
+
+  for (const event of events) {
+    const notificationId = `${event.id || 'event'}_${getLocationKey(locationName)}`;
+
+    updates[notificationId] = {
+      eventId: String(event.id || ''),
+      eventName: event.name || 'Handelse',
+      eventType: event.type || '',
+      eventDatetime: event.datetime || '',
+      eventSummary: event.summary || '',
+      eventUrl: event.url || '',
+      locationName,
+      title: `Ny handelse i ${locationName}`,
+      channels,
+      isRead: false,
+      createdAt: new Date().toISOString()
+    };
+  }
+
+  if (Object.keys(updates).length > 0) {
+    await notificationsRef.update(updates);
+  }
+}
+
 function buildEmailHtml(locationName, events) {
   const rows = events
     .map((event) => {
@@ -191,6 +225,11 @@ exports.sendAreaNotifications = onSchedule(
         });
 
         try {
+          await writeInAppNotifications(uid, locationName, matchingRecentEvents, {
+            email: Boolean(location.emailNotifications),
+            push: Boolean(location.pushNotifications)
+          });
+
           if (location.emailNotifications && userEmail) {
             await sendEmailNotification(userEmail, locationName, matchingRecentEvents);
           }

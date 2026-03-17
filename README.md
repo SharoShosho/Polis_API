@@ -14,6 +14,7 @@ Appen är för närvarande inte deployad, eftersom notifieringsdelen använder s
 - Inloggning och registrering via Firebase Authentication.
 - Profilsida för inloggad användare med kontouppgifter, utloggning och möjlighet att radera konto.
 - Favoritsida där användaren kan hantera favoritstationer, favorithändelser och favoritområden.
+- Notiscenter i appen med lästa/olästa notiser för matchningar i favoritområden.
 - Stöd för e-post- och pushnotiser för favoritområden via Firebase Realtime Database och Cloud Functions.
 
 ## Teknik
@@ -116,16 +117,18 @@ npm run logs
 - `/login` visar inloggning.
 - `/register` visar registrering.
 - `/favorites` kräver inloggning.
+- `/notifications` kräver inloggning.
 - `/profile` kräver inloggning.
 
 ## Firebase-konfiguration
 
-Frontend använder Firebase-konfigurationen som ligger direkt i `src/Firebase.js`.
+Frontend använder lokal Firebase-konfiguration i `src/Firebase.js`.
+En mall finns i `src/Firebase.example.js`.
 
 Projektet använder dessa Firebase-tjänster:
 
 - Authentication för inloggning och registrering.
-- Realtime Database för profiler, favoriter och notifieringstokens.
+- Realtime Database för profiler, favoriter, in-app-notiser och notifieringstokens.
 - Cloud Messaging för web push.
 - Cloud Functions för schemalagda områdesnotiser.
 
@@ -178,6 +181,8 @@ favorites/{uid}/locations/{locationId}/emailNotifications
 favorites/{uid}/locations/{locationId}/pushNotifications
 
 notificationTokens/{uid}/{fcmToken}: true
+notifications/{uid}/{notificationId}
+notifications/{uid}/{notificationId}/isRead
 notificationState/lastRunAt
 ```
 
@@ -189,6 +194,7 @@ Cloud Function `sendAreaNotifications` körs var 10:e minut och gör följande:
 - jämför händelsernas plats med användarnas sparade favoritområden
 - skickar e-post om `emailNotifications` är aktiverat
 - skickar push om `pushNotifications` är aktiverat
+- sparar in-app-notiser under `notifications/{uid}`
 - sparar senaste körningstid i `notificationState/lastRunAt`
 
 Push-token registreras i frontend när användaren aktiverar push från favoritsidan.
@@ -211,6 +217,12 @@ Push-token registreras i frontend när användaren aktiverar push från favorits
       }
     },
     "notificationTokens": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+    "notifications": {
       "$uid": {
         ".read": "auth != null && auth.uid === $uid",
         ".write": "auth != null && auth.uid === $uid"
@@ -241,4 +253,8 @@ cd functions
 npm run deploy
 ```
 
-Om du även använder Firebase Hosting behöver du komplettera med hosting-konfiguration och deploya den separat.
+Deploy av både Hosting och Functions:
+
+```bash
+npx firebase-tools deploy --only hosting,functions
+```

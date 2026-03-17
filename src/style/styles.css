@@ -381,6 +381,75 @@ select {
   text-decoration: none;
 }
 
+.notification-card {
+  max-width: 840px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border: 1px solid #dde3ed;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.notification-meta {
+  color: #3f4c5f;
+  margin-top: 8px;
+}
+
+.notification-actions {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.notification-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.notification-item {
+  border: 1px solid #dde3ed;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #f9fafc;
+}
+
+.notification-item.is-unread {
+  border-left: 5px solid #2c5fa8;
+}
+
+.notification-item.is-read {
+  opacity: 0.84;
+}
+
+.notification-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.notification-item-header h4 {
+  color: #1a2d4f;
+}
+
+.notification-item-header span {
+  color: #546174;
+  font-size: 0.85rem;
+}
+
+.notification-item-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.notification-item-actions a {
+  text-decoration: none;
+}
+
 .welcome-card {
   max-width: 680px;
   margin: 20px auto;
@@ -474,5 +543,10 @@ select {
 
   .event-detail-row strong {
     text-align: left;
+  }
+
+  .notification-item-header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

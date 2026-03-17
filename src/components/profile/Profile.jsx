@@ -96,10 +96,11 @@ function Profile() {
     let backups = [];
 
     try {
-      const [userSnapshot, favoritesSnapshot, tokensSnapshot] = await Promise.all([
+      const [userSnapshot, favoritesSnapshot, tokensSnapshot, notificationsSnapshot] = await Promise.all([
         get(ref(realtimeDb, `users/${currentUser.uid}`)),
         get(ref(realtimeDb, `favorites/${currentUser.uid}`)),
-        get(ref(realtimeDb, `notificationTokens/${currentUser.uid}`))
+        get(ref(realtimeDb, `notificationTokens/${currentUser.uid}`)),
+        get(ref(realtimeDb, `notifications/${currentUser.uid}`))
       ]);
 
       backups = [
@@ -114,13 +115,18 @@ function Profile() {
         {
           path: `notificationTokens/${currentUser.uid}`,
           data: tokensSnapshot.val()
+        },
+        {
+          path: `notifications/${currentUser.uid}`,
+          data: notificationsSnapshot.val()
         }
       ];
 
       await Promise.all([
         remove(ref(realtimeDb, `users/${currentUser.uid}`)),
         remove(ref(realtimeDb, `favorites/${currentUser.uid}`)),
-        remove(ref(realtimeDb, `notificationTokens/${currentUser.uid}`))
+        remove(ref(realtimeDb, `notificationTokens/${currentUser.uid}`)),
+        remove(ref(realtimeDb, `notifications/${currentUser.uid}`))
       ]);
 
       await deleteUser(currentUser);
