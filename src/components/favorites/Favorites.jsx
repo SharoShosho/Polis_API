@@ -91,71 +91,159 @@ function Favorites() {
   }
 
   return (
-    <div>
-      <h3>Dina favoriter</h3>
-      <p>
-        <button onClick={handleEnablePush}>Aktivera push i denna webbläsare</button>
-      </p>
-      {pushStatus ? <p>{pushStatus}</p> : null}
+    <div className="favorites-page">
+      <div className="favorites-hero">
+        <div>
+          <h2>Dina favoriter</h2>
+          <p className="favorites-intro">
+            Här hittar du alla sparade stationer, händelser och områden samlade på ett ställe.
+          </p>
+        </div>
+        <div className="favorites-hero-actions">
+          <button type="button" onClick={handleEnablePush}>
+            Aktivera push i denna webbläsare
+          </button>
+        </div>
+      </div>
+
+      {pushStatus ? <p className="favorites-status">{pushStatus}</p> : null}
+
+      <div className="favorites-summary-grid">
+        <div className="favorites-summary-card">
+          <span>Stationer</span>
+          <strong>{favoriteStations.length}</strong>
+        </div>
+        <div className="favorites-summary-card">
+          <span>Händelser</span>
+          <strong>{favoriteEvents.length}</strong>
+        </div>
+        <div className="favorites-summary-card">
+          <span>Områden</span>
+          <strong>{favoriteLocations.length}</strong>
+        </div>
+      </div>
+
       {isLoading ? (
         <p>Hämtar favoriter...</p>
       ) : (
-        <>
-          <h4>Stationer</h4>
-          {favoriteStations.length === 0 ? (
-            <p>Inga favoritstationer an.</p>
-          ) : (
-            <ul>
-              {favoriteStations.map((station) => (
-                <li key={station.id}>
-                  <h4>{station.name}</h4>
-                  <button onClick={() => handleRemoveStationFavorite(station.id)}>Ta bort favorit</button>
-                </li>
-              ))}
-            </ul>
-          )}
+        <div className="favorites-sections">
+          <section className="favorites-panel">
+            <div className="favorites-panel-header">
+              <div>
+                <h3>Favoritstationer</h3>
+                <p>Snabb åtkomst till stationer du har sparat.</p>
+              </div>
+              <span className="favorites-badge">{favoriteStations.length}</span>
+            </div>
 
-          <h4>Händelser</h4>
-          {favoriteEvents.length === 0 ? (
-            <p>Inga favorithändelser an.</p>
-          ) : (
-            <ul>
-              {favoriteEvents.map((event) => (
-                <li key={event.id}>
-                  <h4>{event.name}</h4>
-                  {event.locationName ? <p><strong>Plats:</strong> {event.locationName}</p> : null}
-                  <button onClick={() => handleRemoveEventFavorite(event.id)}>Ta bort favorit</button>
-                </li>
-              ))}
-            </ul>
-          )}
+            {favoriteStations.length === 0 ? (
+              <p className="favorites-empty">Inga favoritstationer än.</p>
+            ) : (
+              <ul className="favorites-list">
+                {favoriteStations.map((station) => (
+                  <li key={station.id} className="favorite-item-card">
+                    <div className="favorite-item-content">
+                      <h4>{station.name}</h4>
+                      {station.locationName ? (
+                        <p>
+                          <strong>Plats:</strong> {station.locationName}
+                        </p>
+                      ) : null}
+                    </div>
+                    <div className="favorite-item-actions">
+                      <button type="button" onClick={() => handleRemoveStationFavorite(station.id)}>
+                        Ta bort favorit
+                      </button>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
 
-          <h4>Favoritområden</h4>
-          {favoriteLocations.length === 0 ? (
-            <p>Inga favoritområden an.</p>
-          ) : (
-            <ul>
-              {favoriteLocations.map((location) => (
-                <li key={location.id}>
-                  <h4>{location.name}</h4>
-                  <p>
-                    <strong>E-post:</strong> {location.emailNotifications ? 'På' : 'Av'}{' '}
-                    <strong>Push:</strong> {location.pushNotifications ? 'På' : 'Av'}
-                  </p>
-                  <p>
-                    <button onClick={() => handleToggleLocationNotification(location, 'emailNotifications')}>
-                      {location.emailNotifications ? 'Stang av e-post' : 'Aktivera e-post'}
-                    </button>{' '}
-                    <button onClick={() => handleToggleLocationNotification(location, 'pushNotifications')}>
-                      {location.pushNotifications ? 'Stang av push' : 'Aktivera push'}
-                    </button>
-                  </p>
-                  <button onClick={() => handleRemoveLocationFavorite(location.id)}>Ta bort favorit</button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </>
+          <section className="favorites-panel">
+            <div className="favorites-panel-header">
+              <div>
+                <h3>Favorithändelser</h3>
+                <p>Händelser du vill kunna återvända till snabbt.</p>
+              </div>
+              <span className="favorites-badge">{favoriteEvents.length}</span>
+            </div>
+
+            {favoriteEvents.length === 0 ? (
+              <p className="favorites-empty">Inga favorithändelser än.</p>
+            ) : (
+              <ul className="favorites-list">
+                {favoriteEvents.map((event) => (
+                  <li key={event.id} className="favorite-item-card">
+                    <div className="favorite-item-content">
+                      <h4>{event.name}</h4>
+                      {event.locationName ? (
+                        <p>
+                          <strong>Plats:</strong> {event.locationName}
+                        </p>
+                      ) : null}
+                      {event.datetime ? (
+                        <p>
+                          <strong>Tid:</strong> {new Date(event.datetime).toLocaleString('sv-SE')}
+                        </p>
+                      ) : null}
+                    </div>
+                    <div className="favorite-item-actions">
+                      <button type="button" onClick={() => handleRemoveEventFavorite(event.id)}>
+                        Ta bort favorit
+                      </button>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+
+          <section className="favorites-panel">
+            <div className="favorites-panel-header">
+              <div>
+                <h3>Favoritområden</h3>
+                <p>Områden du bevakar med e-post och pushnotiser.</p>
+              </div>
+              <span className="favorites-badge">{favoriteLocations.length}</span>
+            </div>
+
+            {favoriteLocations.length === 0 ? (
+              <p className="favorites-empty">Inga favoritområden än.</p>
+            ) : (
+              <ul className="favorites-list">
+                {favoriteLocations.map((location) => (
+                  <li key={location.id} className="favorite-item-card favorite-location-card">
+                    <div className="favorite-item-content">
+                      <h4>{location.name}</h4>
+                      <div className="favorite-channel-row">
+                        <span className={`favorite-chip ${location.emailNotifications ? 'is-on' : 'is-off'}`}>
+                          E-post {location.emailNotifications ? 'På' : 'Av'}
+                        </span>
+                        <span className={`favorite-chip ${location.pushNotifications ? 'is-on' : 'is-off'}`}>
+                          Push {location.pushNotifications ? 'På' : 'Av'}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="favorite-item-actions favorite-location-actions">
+                      <button type="button" onClick={() => handleToggleLocationNotification(location, 'emailNotifications')}>
+                        {location.emailNotifications ? 'Stäng av e-post' : 'Aktivera e-post'}
+                      </button>
+                      <button type="button" onClick={() => handleToggleLocationNotification(location, 'pushNotifications')}>
+                        {location.pushNotifications ? 'Stäng av push' : 'Aktivera push'}
+                      </button>
+                      <button type="button" onClick={() => handleRemoveLocationFavorite(location.id)}>
+                        Ta bort favorit
+                      </button>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        </div>
       )}
     </div>
   );
