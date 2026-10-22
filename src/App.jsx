@@ -16,6 +16,15 @@ import Home from './components/home/Home';
 function App() {
   const [user, setUser] = useState(null);
   const [authResolved, setAuthResolved] = useState(false);
+  const routerBasename = (() => {
+    if (!process.env.PUBLIC_URL) return '/';
+
+    try {
+      return new URL(process.env.PUBLIC_URL).pathname.replace(/\/$/, '') || '/';
+    } catch {
+      return process.env.PUBLIC_URL.replace(/\/$/, '') || '/';
+    }
+  })();
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (nextUser) => {
@@ -27,7 +36,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={routerBasename}>
       <div>
         <header>
           <h1>Polisens API</h1>

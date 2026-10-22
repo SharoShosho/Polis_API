@@ -4,7 +4,7 @@ En React-app som visar polisstationer och aktuella händelser från Polisen, med
 
 ## Status
 
-Appen är för närvarande inte deployad, eftersom notifieringsdelen använder schemalagda Cloud Functions som kan medföra kostnader.
+Frontend deployas till GitHub Pages via GitHub Actions.
 
 ## Funktioner
 
@@ -246,15 +246,26 @@ Det genererar en produktionsbuild i `build/`.
 
 ## Deploy
 
-Deploy av Cloud Functions:
+### Frontend (GitHub Pages)
+
+Workflow finns i `.github/workflows/deploy-pages.yml` och körs vid push till `main` (eller manuellt via **Run workflow**).
+
+Den gör följande:
+
+1. installerar beroenden med `npm ci`
+2. bygger frontend med `npm run build`
+3. laddar upp `./build` som Pages-artifact
+4. deployar till `https://sharoshosho.github.io/Polis_API/`
+
+Första gången behöver repo-inställningen vara:
+
+- **Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+### Firebase Functions (separat deploy)
+
+Cloud Functions deployas separat från GitHub Pages:
 
 ```bash
 cd functions
 npm run deploy
-```
-
-Deploy av både Hosting och Functions:
-
-```bash
-npx firebase-tools deploy --only hosting,functions
 ```
