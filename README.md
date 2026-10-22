@@ -136,11 +136,20 @@ Projektet använder dessa Firebase-tjänster:
 
 ### Frontend
 
-Skapa en `.env` i projektroten om du vill aktivera pushnotiser i webbläsaren:
+Skapa en lokal `.env` i projektroten (committa den inte) med:
 
 ```bash
+REACT_APP_FIREBASE_API_KEY=DIN_FIREBASE_API_KEY
+REACT_APP_FIREBASE_AUTH_DOMAIN=DITT_PROJEKT.firebaseapp.com
+REACT_APP_FIREBASE_DATABASE_URL=https://DITT_PROJEKT-default-rtdb.REGION.firebasedatabase.app/
+REACT_APP_FIREBASE_PROJECT_ID=DITT_PROJEKT_ID
+REACT_APP_FIREBASE_STORAGE_BUCKET=DITT_PROJEKT.firebasestorage.app
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=DIN_MESSAGING_SENDER_ID
+REACT_APP_FIREBASE_APP_ID=DIN_APP_ID
 REACT_APP_FIREBASE_VAPID_KEY=DIN_PUBLIC_VAPID_KEY
 ```
+
+Samma `REACT_APP_FIREBASE_*`-värden måste också finnas som **GitHub Actions repository secrets** för deploy-workflowen i `.github/workflows/deploy-pages.yml`.
 
 Den publika VAPID-nyckeln hämtas från Firebase Console under Cloud Messaging.
 
