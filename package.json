@@ -2,6 +2,7 @@
   "name": "polis-api-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://sharoshosho.github.io/Polis_API/",
   "dependencies": {
     "concurrently": "^9.1.2",
     "firebase": "^12.9.0",
